@@ -1,0 +1,12 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Docker Compose file
+docker-compose.yaml
+
+# Ignore the data folder
+data/
+
+# Ignore model files (folder or files)
+model.pth
+model_latest.pth
