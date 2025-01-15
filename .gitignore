@@ -7,6 +7,9 @@ docker-compose.yaml
 # Ignore the data folder
 data/
 
+# Ignore the datasets folder
+datasets/
+
 # Ignore model files (folder or files)
 model.pth
 model_latest.pth
