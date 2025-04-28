@@ -13,3 +13,4 @@ datasets/
 # Ignore model files (folder or files)
 model.pth
 model_latest.pth
+.qodo
