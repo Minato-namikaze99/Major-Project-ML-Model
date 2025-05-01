@@ -1,0 +1,1301 @@
+Logs,IP Address,Date,Time,Log Type,Anomaly Detected
+Feb 9 19:36:45 combo sshd(pam_unix)[21693]: session closed for user test,,Feb 09,19:36:45,Normal,No
+Feb 9 19:48:17 combo ftpd[25641]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Feb 09,19:48:17,Normal,No
+Feb 9 19:51:20 combo ftpd[23934]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 09,19:51:20,Normal,No
+Feb 9 19:51:46 combo sshd(pam_unix)[23404]: check pass; user unknown,,Feb 09,19:51:46,Normal,No
+Feb 9 20:03:39 combo sshd(pam_unix)[12673]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Feb 09,20:03:39,Auth Failure,No
+Feb 9 20:16:41 combo sshd(pam_unix)[15477]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Feb 09,20:16:41,Auth Failure,No
+Feb 9 20:21:55 combo sshd(pam_unix)[15479]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Feb 09,20:21:55,Auth Failure,No
+Feb 9 20:23:13 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Feb 09,20:23:13,Auth Failure,No
+Feb 9 20:36:09 combo sshd(pam_unix)[15480]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Feb 09,20:36:09,Auth Failure,Yes
+Feb 9 20:38:56 combo sshd(pam_unix)[15476]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Feb 09,20:38:56,Auth Failure,Yes
+Feb 9 20:49:02 combo cups[-]: cupsd shutdown succeeded,,Feb 09,20:49:02,Normal,No
+Feb 9 20:53:11 combo sshd(pam_unix)[3380]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Feb 09,20:53:11,Auth Failure,No
+Feb 9 21:05:19 combo kernel[-]: 0MB HIGHMEM available.,,Feb 09,21:05:19,Normal,No
+Feb 9 21:11:14 combo ftpd[23029]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Feb 09,21:11:14,Normal,No
+Feb 9 21:14:11 combo ftpd[22662]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Feb 09,21:14:11,Normal,No
+Feb 9 21:18:57 combo ftpd[24522]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Feb 09,21:18:57,Normal,No
+"Feb 9 21:25:28 combo kernel[-]: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)",,Feb 09,21:25:28,Normal,No
+Feb 9 21:35:01 combo kernel[-]: SELinux:  Registering netfilter hooks,,Feb 09,21:35:01,Normal,No
+Feb 9 21:44:09 combo kernel[-]: Initializing Cryptographic API,,Feb 09,21:44:09,Normal,No
+Feb 9 21:59:04 combo kernel[-]: pci_hotplug: PCI Hot Plug PCI Core version: 0.5,,Feb 09,21:59:04,Normal,No
+Feb 9 22:07:57 combo kernel[-]: isapnp: Scanning for PnP cards...,,Feb 09,22:07:57,Normal,No
+Feb 9 22:12:33 combo sshd(pam_unix)[30666]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 09,22:12:33,Auth Failure,Yes
+Feb 9 22:25:49 combo ftpd[5019]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Feb 09,22:25:49,Normal,No
+Feb 9 22:35:54 combo ftpd[5021]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Feb 09,22:35:54,Normal,No
+Feb 9 22:43:11 combo ftpd[15553]: connection from 208.62.55.75 () at Wed Jun 29 10:48:08 2005,,Feb 09,22:43:11,Normal,No
+Feb 9 22:48:03 combo sshd(pam_unix)[30499]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root,202.181.236.180,Feb 09,22:48:03,Auth Failure,No
+Feb 9 22:58:41 combo sshd(pam_unix)[30631]: session opened for user test by (uid=509),,Feb 09,22:58:41,Normal,No
+Feb 9 23:09:56 combo sshd(pam_unix)[14277]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Feb 09,23:09:56,Auth Failure,No
+Feb 9 23:19:18 combo ftpd[24486]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:16 2005,,Feb 09,23:19:18,Normal,No
+Feb 9 23:20:57 combo portmap[-]: portmap startup succeeded,,Feb 09,23:20:57,Normal,No
+Feb 9 23:30:40 combo ftpd[32065]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Feb 09,23:30:40,Normal,No
+Feb 9 23:32:56 combo ftpd[24086]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Feb 09,23:32:56,Normal,No
+Feb 9 23:42:56 combo ftpd[23787]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Feb 09,23:42:56,Normal,No
+Feb 9 23:49:11 combo sshd(pam_unix)[30588]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 09,23:49:11,Auth Failure,Yes
+Feb 10 00:02:41 combo ftpd[766]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Feb 10,00:02:41,Normal,No
+Feb 10 00:05:20 combo ftpd[30293]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,00:05:20,Normal,No
+Feb 10 00:07:05 combo kernel[-]: Intel machine check architecture supported.,,Feb 10,00:07:05,Normal,No
+Feb 10 00:20:23 combo sshd(pam_unix)[30555]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,00:20:23,Auth Failure,Yes
+Feb 10 00:30:19 combo sshd(pam_unix)[30542]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,00:30:19,Auth Failure,Yes
+Feb 10 00:41:26 combo klogind[19266]: Kerberos authentication failed,,Feb 10,00:41:26,Normal,No
+Feb 10 00:52:20 combo ftpd[23216]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Feb 10,00:52:20,Normal,No
+Feb 10 01:03:11 combo sshd(pam_unix)[23669]: check pass; user unknown,,Feb 10,01:03:11,Normal,No
+Feb 10 01:11:35 combo sshd(pam_unix)[3308]: check pass; user unknown,,Feb 10,01:11:35,Normal,No
+Feb 10 01:23:14 combo ftpd[2842]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Feb 10,01:23:14,Normal,No
+Feb 10 01:29:42 combo sshd(pam_unix)[18976]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Feb 10,01:29:42,Auth Failure,No
+Feb 10 01:35:41 combo ftpd[23935]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 10,01:35:41,Normal,No
+Feb 10 01:40:34 combo ftpd[23937]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 10,01:40:34,Normal,No
+Feb 10 01:41:28 combo ftpd[23938]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 10,01:41:28,Normal,No
+Feb 10 01:41:45 combo ftpd[23936]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 10,01:41:45,Normal,No
+Feb 10 01:47:33 combo ftpd[23939]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Feb 10,01:47:33,Normal,No
+Feb 10 01:48:35 combo ftpd[9765]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Feb 10,01:48:35,Normal,No
+Feb 10 01:55:45 combo ftpd[24082]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Feb 10,01:55:45,Normal,No
+Feb 10 02:04:23 combo ftpd[774]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Feb 10,02:04:23,Normal,No
+Feb 10 02:16:28 combo ftpd[30278]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,02:16:28,Normal,No
+Feb 10 02:24:01 combo ftpd[30276]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,02:24:01,Normal,No
+Feb 10 02:31:22 combo ftpd[30277]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,02:31:22,Normal,No
+Feb 10 02:41:10 combo ftpd[30292]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,02:41:10,Normal,No
+Feb 10 02:46:31 combo ftpd[30293]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Feb 10,02:46:31,Normal,No
+Feb 10 02:57:30 combo sshd(pam_unix)[28975]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Feb 10,02:57:30,Auth Failure,No
+Feb 10 02:58:37 combo sshd(pam_unix)[28977]: check pass; user unknown,,Feb 10,02:58:37,Normal,No
+Feb 10 03:03:57 combo sshd(pam_unix)[28977]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Feb 10,03:03:57,Auth Failure,No
+Feb 10 03:12:48 combo sshd(pam_unix)[28980]: check pass; user unknown,,Feb 10,03:12:48,Normal,No
+Feb 10 03:26:19 combo sshd(pam_unix)[28980]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Feb 10,03:26:19,Auth Failure,No
+Feb 10 03:36:49 combo udev[12798]: creating device node '/udev/vcsa2',,Feb 10,03:36:49,Normal,No
+Feb 10 03:45:08 combo sshd(pam_unix)[8114]: session closed for user test,,Feb 10,03:45:08,Normal,No
+Feb 10 03:52:59 combo sshd(pam_unix)[8117]: session opened for user test by (uid=509),,Feb 10,03:52:59,Normal,No
+Feb 10 04:01:25 combo sshd(pam_unix)[8117]: session closed for user test,,Feb 10,04:01:25,Normal,No
+Feb 10 04:12:14 combo su(pam_unix)[9355]: session opened for user cyrus by (uid=0),,Feb 10,04:12:14,Normal,No
+Feb 10 04:21:47 combo su(pam_unix)[9355]: session closed for user cyrus,,Feb 10,04:21:47,Normal,No
+Feb 10 04:35:50 combo sshd(pam_unix)[31035]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,massive.merukuru.org,Feb 10,04:35:50,Auth Failure,No
+Feb 10 04:47:25 combo ftpd[25227]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Feb 10,04:47:25,Normal,No
+Feb 10 04:52:14 combo logrotate[-]: ALERT exited abnormally with [1],,Feb 10,04:52:14,Service Issue,Yes
+Feb 10 05:01:32 combo sshd(pam_unix)[22106]: session opened for user test by (uid=509),,Feb 10,05:01:32,Normal,No
+Feb 10 05:02:15 combo sshd(pam_unix)[12629]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Feb 10,05:02:15,Auth Failure,No
+Feb 10 05:06:49 combo sshd(pam_unix)[12630]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Feb 10,05:06:49,Auth Failure,No
+Feb 10 05:10:33 combo sshd(pam_unix)[12643]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Feb 10,05:10:33,Auth Failure,No
+Feb 10 05:14:07 combo sshd(pam_unix)[12645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Feb 10,05:14:07,Auth Failure,No
+Feb 10 05:24:02 combo sshd(pam_unix)[12639]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Feb 10,05:24:02,Auth Failure,No
+Feb 10 05:30:22 combo sshd(pam_unix)[12680]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Feb 10,05:30:22,Auth Failure,No
+Feb 10 05:39:25 combo ftpd[23568]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Feb 10,05:39:25,Normal,No
+Feb 10 05:48:09 combo sshd(pam_unix)[30740]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root,211.214.161.141,Feb 10,05:48:09,Auth Failure,No
+Feb 10 05:55:10 combo ftpd[23208]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Feb 10,05:55:10,Normal,No
+Feb 10 06:07:45 combo ftpd[23576]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Feb 10,06:07:45,Normal,No
+Feb 10 06:09:29 combo ftpd[25043]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Feb 10,06:09:29,Normal,No
+Feb 10 06:16:55 combo sshd(pam_unix)[3386]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Feb 10,06:16:55,Auth Failure,No
+Feb 10 06:30:12 combo su(pam_unix)[12098]: session closed for user cyrus,,Feb 10,06:30:12,Normal,No
+Feb 10 06:43:57 combo ftpd[29730]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Feb 10,06:43:57,Normal,No
+Feb 10 06:55:37 combo sshd(pam_unix)[6552]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,210.229.150.228,Feb 10,06:55:37,Auth Failure,No
+Feb 10 07:00:01 combo ftpd[25629]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Feb 10,07:00:01,Normal,No
+Feb 10 07:03:46 combo su(pam_unix)[16663]: session closed for user cyrus,,Feb 10,07:03:46,Normal,No
+Feb 10 07:08:54 combo logrotate[-]: ALERT exited abnormally with [1],,Feb 10,07:08:54,Service Issue,Yes
+Feb 10 07:10:32 combo sshd(pam_unix)[23396]: check pass; user unknown,,Feb 10,07:10:32,Normal,No
+Feb 10 07:12:20 combo sshd(pam_unix)[30540]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,07:12:20,Auth Failure,Yes
+Feb 10 07:14:24 combo sshd(pam_unix)[30542]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,07:14:24,Auth Failure,Yes
+Feb 10 07:18:56 combo sshd(pam_unix)[30544]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,07:18:56,Auth Failure,Yes
+Feb 10 07:19:21 combo sshd(pam_unix)[30546]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,07:19:21,Auth Failure,Yes
+Feb 10 07:29:24 combo sshd(pam_unix)[30548]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Feb 10,07:29:24,Auth Failure,Yes
+Feb 10 07:39:18 combo klogind[19267]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Feb 10,07:39:18,Normal,No
+Feb 10 07:46:42 combo ftpd[13255]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Feb 10,07:46:42,Normal,No
+Feb 10 07:54:47 combo ftpd[5033]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Feb 10,07:54:47,Normal,No
+Dec 1 19:32:56 combo ftpd[758]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Dec 01,19:32:56,Normal,No
+Dec 1 19:38:29 combo su(pam_unix)[25178]: session opened for user cyrus by (uid=0),,Dec 01,19:38:29,Normal,No
+Dec 1 19:50:56 combo logrotate[-]: ALERT exited abnormally with [1],,Dec 01,19:50:56,Service Issue,Yes
+Dec 1 20:05:53 combo sshd(pam_unix)[24578]: check pass; user unknown,,Dec 01,20:05:53,Normal,No
+Dec 1 20:14:06 combo ftpd[761]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Dec 01,20:14:06,Normal,No
+Dec 1 20:17:45 combo sshd(pam_unix)[23416]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Dec 01,20:17:45,Auth Failure,No
+Dec 1 20:22:26 combo ftpd[25225]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Dec 01,20:22:26,Normal,No
+Dec 1 20:28:29 combo ftpd[25224]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Dec 01,20:28:29,Normal,No
+Dec 1 20:33:00 combo logrotate[-]: ALERT exited abnormally with [1],,Dec 01,20:33:00,Service Issue,Yes
+Dec 1 20:37:35 combo ftpd[28694]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Dec 01,20:37:35,Normal,No
+Dec 1 20:41:00 combo ftpd[22668]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Dec 01,20:41:00,Normal,No
+Dec 1 20:51:05 combo ftpd[23205]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Dec 01,20:51:05,Normal,No
+Dec 1 20:52:01 combo sshd(pam_unix)[23403]: check pass; user unknown,,Dec 01,20:52:01,Normal,No
+Dec 1 20:58:24 combo ftpd[25032]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Dec 01,20:58:24,Normal,No
+Dec 1 21:06:14 combo ftpd[2828]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Dec 01,21:06:14,Normal,No
+Dec 1 21:17:05 combo ftpd[13150]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Dec 01,21:17:05,Normal,No
+Dec 1 21:26:46 combo ftpd[13156]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Dec 01,21:26:46,Normal,No
+Dec 1 21:32:08 combo sshd(pam_unix)[28987]: check pass; user unknown,,Dec 01,21:32:08,Normal,No
+Dec 1 21:35:13 combo sshd(pam_unix)[16154]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Dec 01,21:35:13,Auth Failure,No
+Dec 1 21:35:47 combo bluetooth[-]: hcid startup succeeded,,Dec 01,21:35:47,Normal,No
+Dec 1 21:38:01 combo kernel[-]: audit(1122475266.4294965305:0): initialized,,Dec 01,21:38:01,Normal,No
+Dec 1 21:42:02 combo network[-]: Setting network parameters:  succeeded,,Dec 01,21:42:02,Normal,No
+Dec 1 21:46:22 combo bluetooth[-]: sdpd startup succeeded,,Dec 01,21:46:22,Normal,No
+Dec 1 21:59:41 combo sdpd[1696]: sdpd v1.5 started,,Dec 01,21:59:41,Normal,No
+Dec 1 21:59:49 combo ftpd[23936]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Dec 01,21:59:49,Normal,No
+Dec 1 22:06:17 combo sshd(pam_unix)[16161]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Dec 01,22:06:17,Auth Failure,No
+Dec 1 22:10:22 combo ftpd[30278]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 01,22:10:22,Normal,No
+Dec 1 22:15:33 combo ftpd[30276]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 01,22:15:33,Normal,No
+Dec 1 22:23:27 combo ftpd[30277]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 01,22:23:27,Normal,No
+Dec 1 22:30:32 combo ftpd[30292]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 01,22:30:32,Normal,No
+Dec 1 22:39:08 combo ftpd[30293]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 01,22:39:08,Normal,No
+Dec 1 22:48:53 combo ftpd[28699]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Dec 01,22:48:53,Normal,No
+Dec 1 22:56:05 combo sshd(pam_unix)[28848]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Dec 01,22:56:05,Auth Failure,No
+Dec 1 23:06:53 combo ftpd[24367]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Dec 01,23:06:53,Normal,No
+Dec 1 23:09:59 combo ftpd[25628]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Dec 01,23:09:59,Normal,No
+Dec 1 23:15:47 combo ftpd[16781]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Dec 01,23:15:47,Normal,No
+Dec 1 23:17:18 combo sshd(pam_unix)[15479]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Dec 01,23:17:18,Auth Failure,No
+Dec 1 23:26:52 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Dec 01,23:26:52,Auth Failure,No
+Dec 1 23:40:34 combo sshd(pam_unix)[12752]: check pass; user unknown,,Dec 01,23:40:34,Normal,No
+Dec 1 23:51:03 combo sshd(pam_unix)[19435]: session opened for user test by (uid=509),,Dec 01,23:51:03,Normal,No
+Dec 1 23:59:14 combo klogind[19275]: Kerberos authentication failed,,Dec 01,23:59:14,Normal,No
+Dec 2 00:04:30 combo ftpd[30281]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 02,00:04:30,Normal,No
+Dec 2 00:06:57 combo sshd(pam_unix)[14280]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Dec 02,00:06:57,Auth Failure,No
+Dec 2 00:12:03 combo su(pam_unix)[19534]: session closed for user cyrus,,Dec 02,00:12:03,Normal,No
+Dec 2 00:17:43 combo ftpd[23030]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Dec 02,00:17:43,Normal,No
+Dec 2 00:24:21 combo sshd(pam_unix)[23671]: check pass; user unknown,,Dec 02,00:24:21,Normal,No
+Dec 2 00:39:13 combo kernel[-]: ACPI: Subsystem revision 20040326,,Dec 02,00:39:13,Normal,No
+Dec 2 00:52:28 combo named[2306]: notify question section contains no SOA,,Dec 02,00:52:28,Normal,No
+Dec 2 01:05:25 combo ftpd[15918]: connection from 210.223.97.117 () at Wed Jun 29 14:44:35 2005,,Dec 02,01:05:25,Normal,No
+Dec 2 01:15:34 combo su(pam_unix)[14943]: session closed for user cyrus,,Dec 02,01:15:34,Normal,No
+Dec 2 01:17:52 combo su(pam_unix)[30999]: session closed for user cyrus,,Dec 02,01:17:52,Normal,No
+Dec 2 01:28:57 combo sshd(pam_unix)[30615]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 02,01:28:57,Auth Failure,No
+Dec 2 01:34:20 combo sshd(pam_unix)[23786]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Dec 02,01:34:20,Auth Failure,No
+Dec 2 01:44:06 combo udev[12778]: creating device node '/udev/vcsa2',,Dec 02,01:44:06,Normal,No
+Dec 2 01:57:58 combo ftpd[23781]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Dec 02,01:57:58,Normal,No
+Dec 2 02:07:09 combo ftpd[21956]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Dec 02,02:07:09,Normal,No
+Dec 2 02:18:21 combo sshd(pam_unix)[23533]: session opened for user test by (uid=509),,Dec 02,02:18:21,Normal,No
+Dec 2 02:23:43 combo sshd(pam_unix)[6558]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,210.229.150.228,Dec 02,02:23:43,Auth Failure,No
+Dec 2 02:37:49 combo ftpd[24203]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:53 2005,,Dec 02,02:37:49,Normal,No
+Dec 2 02:38:18 combo ftpd[24204]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:54 2005,,Dec 02,02:38:18,Normal,No
+Dec 2 02:50:10 combo ftpd[24205]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:57 2005,,Dec 02,02:50:10,Normal,No
+Dec 2 03:03:47 combo ftpd[24206]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:57 2005,,Dec 02,03:03:47,Normal,No
+Dec 2 03:10:16 combo ftpd[24207]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:58 2005,,Dec 02,03:10:16,Normal,No
+Dec 2 03:15:55 combo sshd(pam_unix)[19099]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 02,03:15:55,Auth Failure,No
+Dec 2 03:20:52 combo sshd(pam_unix)[30635]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 02,03:20:52,Auth Failure,No
+Dec 2 03:24:51 combo su(pam_unix)[3676]: session closed for user news,,Dec 02,03:24:51,Normal,No
+Dec 2 03:30:58 combo sshd(pam_unix)[19093]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 02,03:30:58,Auth Failure,No
+Dec 2 03:36:18 combo ftpd[13145]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Dec 02,03:36:18,Normal,No
+Dec 2 03:44:06 combo sshd(pam_unix)[24139]: check pass; user unknown,,Dec 02,03:44:06,Normal,No
+Dec 2 03:45:05 combo su(pam_unix)[12193]: session opened for user news by (uid=0),,Dec 02,03:45:05,Normal,No
+Dec 2 03:50:20 combo sshd(pam_unix)[30658]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 02,03:50:20,Auth Failure,No
+Dec 2 04:01:20 combo sshd(pam_unix)[28980]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Dec 02,04:01:20,Auth Failure,No
+Dec 2 04:07:56 combo su(pam_unix)[363]: session opened for user cyrus by (uid=0),,Dec 02,04:07:56,Normal,No
+Dec 2 04:17:25 combo ftpd[24201]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005,,Dec 02,04:17:25,Normal,No
+Dec 2 04:22:20 combo ftpd[2843]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Dec 02,04:22:20,Normal,No
+Dec 2 04:37:13 combo ftpd[16774]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Dec 02,04:37:13,Normal,No
+Dec 2 04:50:32 combo logrotate[-]: ALERT exited abnormally with [1],,Dec 02,04:50:32,Service Issue,Yes
+Dec 2 04:59:09 combo sshd(pam_unix)[31031]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,massive.merukuru.org,Dec 02,04:59:09,Auth Failure,No
+Dec 2 05:13:25 combo ftpd[23570]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Dec 02,05:13:25,Normal,No
+Dec 2 05:19:02 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Dec 02,05:19:02,Normal,No
+Dec 2 05:30:17 combo sshd(pam_unix)[23669]: check pass; user unknown,,Dec 02,05:30:17,Normal,No
+Dec 2 05:44:32 combo ftpd[15555]: connection from 208.62.55.75 () at Wed Jun 29 10:48:10 2005,,Dec 02,05:44:32,Normal,No
+Dec 2 05:44:47 combo sshd(pam_unix)[24587]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,zummit.com,Dec 02,05:44:47,Auth Failure,No
+Dec 2 05:59:28 combo ftpd[17681]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Dec 02,05:59:28,Normal,No
+Dec 2 06:03:30 combo sshd(pam_unix)[12665]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Dec 02,06:03:30,Auth Failure,No
+Dec 2 06:13:20 combo ftpd[23145]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Dec 02,06:13:20,Normal,No
+Dec 2 06:22:12 combo sshd(pam_unix)[19637]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 02,06:22:12,Auth Failure,No
+Dec 2 06:24:32 combo named[2306]: notify question section contains no SOA,,Dec 02,06:24:32,Normal,No
+Dec 2 06:37:17 combo sshd(pam_unix)[30625]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 02,06:37:17,Auth Failure,No
+Dec 2 06:51:25 combo ftpd[29736]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Dec 02,06:51:25,Normal,No
+Dec 2 07:06:02 combo sshd(pam_unix)[24579]: check pass; user unknown,,Dec 02,07:06:02,Normal,No
+Dec 2 07:09:28 combo sshd(pam_unix)[31036]: check pass; user unknown,,Dec 02,07:09:28,Normal,No
+Dec 2 07:13:12 combo ftpd[778]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Dec 02,07:13:12,Normal,No
+Dec 2 07:13:48 combo ftpd[24969]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Dec 02,07:13:48,Normal,No
+Dec 2 07:20:30 combo ftpd[24960]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Dec 02,07:20:30,Normal,No
+Dec 2 07:22:34 combo ftpd[24963]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Dec 02,07:22:34,Normal,No
+Dec 2 07:22:52 combo ftpd[24961]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Dec 02,07:22:52,Normal,No
+Dec 2 07:26:46 combo named[2306]: notify question section contains no SOA,,Dec 02,07:26:46,Normal,No
+Dec 2 07:28:18 combo sshd(pam_unix)[10047]: check pass; user unknown,,Dec 02,07:28:18,Normal,No
+Dec 2 07:35:37 combo sshd(pam_unix)[19085]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201,200.60.37.201,Dec 02,07:35:37,Auth Failure,No
+Nov 19 19:35:51 combo ftpd[15552]: connection from 208.62.55.75 () at Wed Jun 29 10:48:08 2005,,Nov 19,19:35:51,Normal,No
+Nov 19 19:44:44 combo sshd(pam_unix)[4061]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root,68.143.156.89.nw.nuvox.net,Nov 19,19:44:44,Auth Failure,No
+Nov 19 19:47:06 combo su(pam_unix)[11756]: session opened for user news by (uid=0),,Nov 19,19:47:06,Normal,No
+Nov 19 19:55:19 combo ftpd[29723]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 19,19:55:19,Normal,No
+Nov 19 19:57:50 combo ftpd[14109]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 19,19:57:50,Normal,No
+Nov 19 20:02:41 combo sshd(pam_unix)[12519]: session closed for user test,,Nov 19,20:02:41,Normal,No
+Nov 19 20:17:04 combo klogind[19267]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Nov 19,20:17:04,Normal,No
+Nov 19 20:20:25 combo sshd(pam_unix)[22104]: session closed for user test,,Nov 19,20:20:25,Normal,No
+Nov 19 20:28:02 combo ftpd[12293]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 19,20:28:02,Normal,No
+Nov 19 20:39:39 combo sshd(pam_unix)[10049]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,65.166.159.14,Nov 19,20:39:39,Auth Failure,No
+Nov 19 20:51:59 combo sshd(pam_unix)[26188]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,218.22.3.51,Nov 19,20:51:59,Auth Failure,No
+Nov 19 21:04:26 combo ftpd[26477]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 19,21:04:26,Normal,No
+Nov 19 21:14:05 combo sshd(pam_unix)[16210]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 19,21:14:05,Auth Failure,No
+Nov 19 21:23:28 combo sshd(pam_unix)[18547]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=biblioteka.wsi.edu.pl,biblioteka.wsi.edu.pl,Nov 19,21:23:28,Auth Failure,No
+Nov 19 21:32:41 combo ftpd[21955]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 19,21:32:41,Normal,No
+Nov 19 21:34:45 combo ftpd[23030]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 19,21:34:45,Normal,No
+Nov 19 21:39:27 combo ftpd[24470]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 19,21:39:27,Normal,No
+Nov 19 21:43:52 combo su(pam_unix)[13238]: session closed for user cyrus,,Nov 19,21:43:52,Normal,No
+Nov 19 21:50:09 combo sshd(pam_unix)[19631]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 19,21:50:09,Auth Failure,No
+Nov 19 21:53:44 combo ftpd[17670]: connection from 212.65.68.82 () at Sat Jul 16 08:14:04 2005,,Nov 19,21:53:44,Normal,No
+Nov 19 22:07:55 combo sshd(pam_unix)[31853]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root,82.77.200.128,Nov 19,22:07:55,Auth Failure,No
+Nov 19 22:10:44 combo ftpd[26471]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 19,22:10:44,Normal,No
+Nov 19 22:25:16 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,22:25:16,Service Issue,Yes
+Nov 19 22:37:52 combo cups[-]: cupsd shutdown succeeded,,Nov 19,22:37:52,Normal,No
+Nov 19 22:49:58 combo ftpd[24210]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:59 2005,,Nov 19,22:49:58,Normal,No
+Nov 19 22:50:24 combo ftpd[24211]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:59 2005,,Nov 19,22:50:24,Normal,No
+Nov 19 22:51:12 combo ftpd[24212]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:59 2005,,Nov 19,22:51:12,Normal,No
+Nov 19 22:58:09 combo ftpd[24213]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:31:00 2005,,Nov 19,22:58:09,Normal,No
+Nov 19 23:02:51 combo ftpd[24214]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:31:04 2005,,Nov 19,23:02:51,Normal,No
+Nov 19 23:04:20 combo su(pam_unix)[10961]: session opened for user cyrus by (uid=0),,Nov 19,23:04:20,Normal,No
+Nov 19 23:13:23 combo ftpd[24370]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:57 2005,,Nov 19,23:13:23,Normal,No
+Nov 19 23:24:53 combo ftpd[25628]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 19,23:24:53,Normal,No
+Nov 19 23:28:07 combo ftpd[24078]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 19,23:28:07,Normal,No
+Nov 19 23:37:48 combo ftpd[32324]: connection from 211.167.68.59 () at Sat Jun 25 19:25:30 2005,,Nov 19,23:37:48,Normal,No
+Nov 19 23:49:45 combo sshd(pam_unix)[22189]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=203.251.225.101  user=root,203.251.225.101,Nov 19,23:49:45,Auth Failure,No
+Nov 19 23:56:08 combo ftpd[29511]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:04 2005,,Nov 19,23:56:08,Normal,No
+Nov 20 00:07:10 combo sshd(pam_unix)[30565]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.46.224.253  user=guest,211.46.224.253,Nov 20,00:07:10,Auth Failure,No
+Nov 20 00:10:28 combo sshd(pam_unix)[30631]: session opened for user test by (uid=509),,Nov 20,00:10:28,Normal,No
+Nov 20 00:15:15 combo sshd(pam_unix)[30631]: session closed for user test,,Nov 20,00:15:15,Normal,No
+Nov 20 00:29:26 combo ftpd[30755]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005,,Nov 20,00:29:26,Normal,No
+Nov 20 00:33:36 combo ftpd[31275]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005,,Nov 20,00:33:36,Normal,No
+Nov 20 00:40:29 combo ftpd[23938]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Nov 20,00:40:29,Normal,No
+Nov 20 00:54:39 combo ftpd[23936]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Nov 20,00:54:39,Normal,No
+Nov 20 00:58:09 combo ftpd[23939]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Nov 20,00:58:09,Normal,No
+Nov 20 01:01:13 combo sshd(pam_unix)[24031]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-220-159-99.hinet-ip.hinet.net  user=root,61-220-159-99.hinet-ip.hinet.net,Nov 20,01:01:13,Auth Failure,No
+Nov 20 01:08:32 combo sshd(pam_unix)[24033]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-220-159-99.hinet-ip.hinet.net  user=root,61-220-159-99.hinet-ip.hinet.net,Nov 20,01:08:32,Auth Failure,No
+Nov 20 01:15:12 combo ftpd[24481]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 20,01:15:12,Normal,No
+Nov 20 01:15:52 combo su(pam_unix)[32237]: session closed for user cyrus,,Nov 20,01:15:52,Normal,No
+Nov 20 01:25:51 combo sshd(pam_unix)[10047]: check pass; user unknown,,Nov 20,01:25:51,Normal,No
+Nov 20 01:31:16 combo ftpd[31985]: connection from 218.38.58.3 () at Wed Jul 27 10:59:53 2005,,Nov 20,01:31:16,Normal,No
+Nov 20 01:31:42 combo sshd(pam_unix)[30580]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,01:31:42,Auth Failure,No
+Nov 20 01:37:58 combo sshd(pam_unix)[28854]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,01:37:58,Auth Failure,No
+Nov 20 01:42:23 combo cups[-]: cupsd shutdown succeeded,,Nov 20,01:42:23,Normal,No
+Nov 20 01:56:41 combo ftpd[16786]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 20,01:56:41,Normal,No
+Nov 20 01:59:20 combo sshd(pam_unix)[30614]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,01:59:20,Auth Failure,No
+Nov 20 02:09:31 combo ftpd[24200]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:48 2005,,Nov 20,02:09:31,Normal,No
+Nov 20 02:22:01 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,02:22:01,Service Issue,Yes
+Nov 20 02:25:36 combo ftpd[21944]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 20,02:25:36,Normal,No
+Nov 20 02:36:16 combo ftpd[9775]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 20,02:36:16,Normal,No
+Nov 20 02:40:28 combo ftpd[9769]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 20,02:40:28,Normal,No
+Nov 20 02:42:38 combo sshd(pam_unix)[18981]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 20,02:42:38,Auth Failure,No
+Nov 20 02:45:59 combo su(pam_unix)[6486]: session opened for user cyrus by (uid=0),,Nov 20,02:45:59,Normal,No
+Nov 20 02:53:41 combo su(pam_unix)[7031]: session closed for user cyrus,,Nov 20,02:53:41,Normal,No
+Nov 20 02:58:33 combo sshd(pam_unix)[28854]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,02:58:33,Auth Failure,No
+Nov 20 03:06:42 combo sshd(pam_unix)[28856]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:06:42,Auth Failure,No
+Nov 20 03:21:30 combo sshd(pam_unix)[28858]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:21:30,Auth Failure,No
+Nov 20 03:35:56 combo sshd(pam_unix)[28860]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:35:56,Auth Failure,No
+Nov 20 03:46:53 combo sshd(pam_unix)[28862]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:46:53,Auth Failure,No
+Nov 20 03:51:40 combo sshd(pam_unix)[18546]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=biblioteka.wsi.edu.pl,biblioteka.wsi.edu.pl,Nov 20,03:51:40,Auth Failure,No
+Nov 20 04:06:40 combo ftpd[5029]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,04:06:40,Normal,No
+Nov 20 04:20:19 combo ftpd[5018]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,04:20:19,Normal,No
+Nov 20 04:22:23 combo ftpd[5017]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,04:22:23,Normal,No
+Nov 20 04:29:32 combo ftpd[5016]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,04:29:32,Normal,No
+Nov 20 04:43:07 combo ftpd[5019]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,04:43:07,Normal,No
+Nov 20 04:43:32 combo sshd(pam_unix)[30675]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,04:43:32,Auth Failure,No
+Nov 20 04:46:25 combo ftpd[30289]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,04:46:25,Normal,No
+Nov 20 05:00:22 combo sshd(pam_unix)[31198]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,adsl-70-242-75-179.dsl.ksc2mo.swbell.net,Nov 20,05:00:22,Auth Failure,No
+Nov 20 05:04:14 combo ftpd[25223]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 20,05:04:14,Normal,No
+"Nov 20 05:07:24 combo ftpd[16781]: ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",,Nov 20,05:07:24,Normal,No
+Nov 20 05:21:21 combo ftpd[24197]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:46 2005,,Nov 20,05:21:21,Normal,No
+Nov 20 05:22:20 combo sshd(pam_unix)[13318]: check pass; user unknown,,Nov 20,05:22:20,Normal,No
+Nov 20 05:24:50 combo ftpd[13243]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,05:24:50,Normal,No
+Nov 20 05:37:06 combo ftpd[774]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 20,05:37:06,Normal,No
+Nov 20 05:38:41 combo ftpd[13516]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 20,05:38:41,Normal,No
+Nov 20 05:40:55 combo sshd(pam_unix)[28980]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Nov 20,05:40:55,Auth Failure,No
+Nov 20 05:53:51 combo kernel[-]: Transparent bridge - 0000:00:1e.0,,Nov 20,05:53:51,Normal,No
+Nov 20 05:57:55 combo ftpd[25635]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 20,05:57:55,Normal,No
+Nov 20 06:09:56 combo su(pam_unix)[17283]: session closed for user cyrus,,Nov 20,06:09:56,Normal,No
+Nov 20 06:20:32 combo sshd(pam_unix)[30672]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,06:20:32,Auth Failure,No
+"Nov 20 06:23:11 combo ftpd[16781]: ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",,Nov 20,06:23:11,Normal,No
+Nov 20 06:28:54 combo sshd(pam_unix)[17125]: check pass; user unknown,,Nov 20,06:28:54,Normal,No
+Nov 20 06:35:39 combo ftpd[13261]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,06:35:39,Normal,No
+Nov 20 06:43:10 combo sshd(pam_unix)[28878]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,06:43:10,Auth Failure,No
+Nov 20 06:54:11 combo ftpd[24375]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:03:00 2005,,Nov 20,06:54:11,Normal,No
+Nov 20 07:08:06 combo sshd(pam_unix)[18981]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 20,07:08:06,Auth Failure,No
+Nov 20 07:16:05 combo sshd(pam_unix)[28986]: check pass; user unknown,,Nov 20,07:16:05,Normal,No
+Nov 20 07:25:24 combo ftpd[30753]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005,,Nov 20,07:25:24,Normal,No
+Nov 20 07:29:18 combo su(pam_unix)[22368]: session closed for user news,,Nov 20,07:29:18,Normal,No
+Nov 20 07:32:06 combo ftpd[28689]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 20,07:32:06,Normal,No
+Nov 20 07:46:01 combo ftpd[19675]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 04:06:32 2005,,Nov 20,07:46:01,Normal,No
+Nov 24 19:38:12 combo sshd(pam_unix)[20884]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 24,19:38:12,Auth Failure,No
+Nov 24 19:46:23 combo sshd(pam_unix)[20883]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 24,19:46:23,Auth Failure,No
+Nov 24 19:56:48 combo sshd(pam_unix)[20885]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 24,19:56:48,Auth Failure,No
+Nov 24 19:56:53 combo sshd(pam_unix)[20886]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 24,19:56:53,Auth Failure,No
+Nov 24 20:01:42 combo sshd(pam_unix)[20892]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 24,20:01:42,Auth Failure,No
+Nov 24 20:07:43 combo ftpd[23046]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 24,20:07:43,Normal,No
+Nov 24 20:18:32 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 24,20:18:32,Service Issue,Yes
+Nov 24 20:22:31 combo ftpd[12296]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,20:22:31,Normal,No
+Nov 24 20:23:01 combo ftpd[2826]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 24,20:23:01,Normal,No
+Nov 24 20:29:37 combo ftpd[2843]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 24,20:29:37,Normal,No
+Nov 24 20:36:45 combo ftpd[24201]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005,,Nov 24,20:36:45,Normal,No
+Nov 24 20:43:11 combo ftpd[28563]: connection from 218.69.108.57 () at Fri Jun 24 18:55:11 2005,,Nov 24,20:43:11,Normal,No
+Nov 24 20:45:16 combo ftpd[25641]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 24,20:45:16,Normal,No
+Nov 24 20:59:03 combo su(pam_unix)[31791]: session opened for user cyrus by (uid=0),,Nov 24,20:59:03,Normal,No
+Nov 24 21:12:19 combo sshd(pam_unix)[19637]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 24,21:12:19,Auth Failure,No
+Nov 24 21:13:13 combo sshd(pam_unix)[30554]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 24,21:13:13,Auth Failure,No
+Nov 24 21:18:31 combo sshd(pam_unix)[15488]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 24,21:18:31,Auth Failure,No
+Nov 24 21:32:06 combo ftpd[24370]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:57 2005,,Nov 24,21:32:06,Normal,No
+Nov 24 21:40:39 combo sshd(pam_unix)[30503]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root,202.181.236.180,Nov 24,21:40:39,Auth Failure,No
+Nov 24 21:53:07 combo ftpd[12285]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,21:53:07,Normal,No
+Nov 24 22:03:08 combo ftpd[12286]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,22:03:08,Normal,No
+Nov 24 22:13:36 combo ftpd[12278]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,22:13:36,Normal,No
+Nov 24 22:23:02 combo ftpd[12277]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,22:23:02,Normal,No
+Nov 24 22:25:54 combo ftpd[12280]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,22:25:54,Normal,No
+Nov 24 22:32:57 combo klogind[19273]: Kerberos authentication failed,,Nov 24,22:32:57,Normal,No
+Nov 24 22:42:48 combo sshd(pam_unix)[12628]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 24,22:42:48,Auth Failure,No
+Nov 24 22:43:50 combo kernel[-]: zapping low mappings.,,Nov 24,22:43:50,Normal,No
+Nov 24 22:46:58 combo ftpd[24199]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:48 2005,,Nov 24,22:46:58,Normal,No
+Nov 24 22:57:22 combo ftpd[12277]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 24,22:57:22,Normal,No
+Nov 24 23:10:56 combo ftpd[15544]: connection from 208.62.55.75 () at Wed Jun 29 10:48:01 2005,,Nov 24,23:10:56,Normal,No
+Nov 24 23:15:08 combo ftpd[23589]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 24,23:15:08,Normal,No
+Nov 24 23:17:54 combo ftpd[23223]: connection from 81.171.220.226 () at Sat Jul  9 12:59:45 2005,,Nov 24,23:17:54,Normal,No
+Nov 24 23:28:33 combo su(pam_unix)[4540]: session closed for user news,,Nov 24,23:28:33,Normal,No
+Nov 24 23:33:54 combo su(pam_unix)[4170]: session closed for user cyrus,,Nov 24,23:33:54,Normal,No
+Nov 24 23:43:48 combo ftpd[32055]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 24,23:43:48,Normal,No
+Nov 24 23:56:21 combo ftpd[13255]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 24,23:56:21,Normal,No
+Nov 25 00:09:08 combo ftpd[13254]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,00:09:08,Normal,No
+Nov 25 00:18:36 combo ftpd[13264]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,00:18:36,Normal,No
+Nov 25 00:28:51 combo ftpd[13251]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,00:28:51,Normal,No
+Nov 25 00:34:12 combo ftpd[13263]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,00:34:12,Normal,No
+Nov 25 00:39:47 combo ftpd[30756]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005,,Nov 25,00:39:47,Normal,No
+Nov 25 00:43:56 combo ftpd[9758]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 25,00:43:56,Normal,No
+Nov 25 00:48:11 combo ftpd[31272]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005,,Nov 25,00:48:11,Normal,No
+Nov 25 00:53:37 combo ftpd[32065]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 25,00:53:37,Normal,No
+Nov 25 00:55:57 combo ftpd[5023]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 25,00:55:57,Normal,No
+Nov 25 00:58:24 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 25,00:58:24,Service Issue,Yes
+Nov 25 01:07:59 combo ftpd[28692]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 25,01:07:59,Normal,No
+Nov 25 01:19:12 combo sshd(pam_unix)[26190]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,218.22.3.51,Nov 25,01:19:12,Auth Failure,No
+Nov 25 01:30:55 combo ftpd[16790]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 25,01:30:55,Normal,No
+Nov 25 01:41:55 combo ftpd[24082]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 25,01:41:55,Normal,No
+Nov 25 01:42:35 combo ftpd[24957]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Nov 25,01:42:35,Normal,No
+Nov 25 01:51:44 combo ftpd[8826]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,,Nov 25,01:51:44,Normal,No
+Nov 25 01:55:41 combo su(pam_unix)[17778]: session opened for user news by (uid=0),,Nov 25,01:55:41,Normal,No
+Nov 25 02:01:08 combo sshd(pam_unix)[12631]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 25,02:01:08,Auth Failure,No
+Nov 25 02:11:52 combo ftpd[28692]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 25,02:11:52,Normal,No
+Nov 25 02:15:15 combo ftpd[23047]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 25,02:15:15,Normal,No
+Nov 25 02:26:00 combo snmpd[2318]: Received SNMP packet(s) from 67.170.148.126,,Nov 25,02:26:00,Normal,No
+Nov 25 02:29:45 combo sshd(pam_unix)[23403]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 25,02:29:45,Auth Failure,No
+Nov 25 02:39:06 combo sshd(pam_unix)[12627]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 25,02:39:06,Auth Failure,No
+Nov 25 02:41:03 combo sshd(pam_unix)[16212]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 25,02:41:03,Auth Failure,No
+Nov 25 02:51:29 combo ftpd[15330]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 25,02:51:29,Normal,No
+Nov 25 02:58:44 combo ftpd[13262]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,02:58:44,Normal,No
+Nov 25 03:11:08 combo ftpd[22656]: connection from 211.107.232.1 () at Sun Jul 24 13:46:32 2005,,Nov 25,03:11:08,Normal,No
+Nov 25 03:21:40 combo sshd(pam_unix)[30572]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 25,03:21:40,Auth Failure,No
+Nov 25 03:24:25 combo ftpd[5029]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 25,03:24:25,Normal,No
+Nov 25 03:36:52 combo sshd(pam_unix)[30662]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 25,03:36:52,Auth Failure,No
+Nov 25 03:49:14 combo ftpd[13252]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 25,03:49:14,Normal,No
+Nov 25 03:59:48 combo sshd(pam_unix)[30652]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 25,03:59:48,Auth Failure,No
+Nov 25 04:12:38 combo sshd(pam_unix)[16227]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 25,04:12:38,Auth Failure,No
+Nov 25 04:19:14 combo su(pam_unix)[17283]: session opened for user cyrus by (uid=0),,Nov 25,04:19:14,Normal,No
+Nov 25 04:29:27 combo ftpd[24472]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 25,04:29:27,Normal,No
+Nov 25 04:30:12 combo ftpd[30284]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 25,04:30:12,Normal,No
+Nov 25 04:30:45 combo sshd(pam_unix)[26184]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,218.22.3.51,Nov 25,04:30:45,Auth Failure,No
+Nov 25 04:32:58 combo ftpd[15336]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 25,04:32:58,Normal,No
+Nov 25 04:36:38 combo ftpd[13520]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 25,04:36:38,Normal,No
+Nov 25 04:42:56 combo ftpd[13519]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 25,04:42:56,Normal,No
+Nov 25 04:56:19 combo ftpd[13514]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 25,04:56:19,Normal,No
+Nov 25 05:07:35 combo ftpd[14105]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 25,05:07:35,Normal,No
+Nov 25 05:14:02 combo ftpd[14106]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 25,05:14:02,Normal,No
+Nov 25 05:19:40 combo kernel[-]: Failure registering capabilities with the kernel,,Nov 25,05:19:40,Normal,No
+Nov 25 05:28:18 combo sshd(pam_unix)[23784]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Nov 25,05:28:18,Auth Failure,No
+Nov 25 05:30:07 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 25,05:30:07,Auth Failure,No
+Nov 25 05:36:34 combo sshd(pam_unix)[15480]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 25,05:36:34,Auth Failure,No
+Nov 25 05:49:56 combo sshd(pam_unix)[15476]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 25,05:49:56,Auth Failure,No
+Nov 25 05:54:26 combo cups[-]: cupsd shutdown succeeded,,Nov 25,05:54:26,Normal,No
+Nov 25 05:57:19 combo sshd(pam_unix)[3380]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 25,05:57:19,Auth Failure,No
+Nov 25 06:06:56 combo ftpd[24211]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:59 2005,,Nov 25,06:06:56,Normal,No
+Nov 25 06:09:57 combo ftpd[6587]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 25,06:09:57,Normal,No
+Nov 25 06:17:02 combo ftpd[6583]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 25,06:17:02,Normal,No
+Nov 25 06:20:35 combo ftpd[6588]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 25,06:20:35,Normal,No
+Nov 25 06:28:10 combo ftpd[6581]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 25,06:28:10,Normal,No
+Nov 25 06:32:22 combo ftpd[6585]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 25,06:32:22,Normal,No
+Nov 25 06:39:11 combo kernel[-]: Detected 731.219 MHz processor.,,Nov 25,06:39:11,Normal,No
+Nov 25 06:44:15 combo rpc.statd[1618]: Version 1.0.6 Starting,,Nov 25,06:44:15,Normal,No
+Nov 25 06:53:26 combo kernel[-]: Using tsc for high-res timesource,,Nov 25,06:53:26,Normal,No
+Nov 25 07:06:54 combo nfslock[-]: rpc.statd startup succeeded,,Nov 25,07:06:54,Normal,No
+Nov 25 07:06:58 combo ftpd[30753]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005,,Nov 25,07:06:58,Normal,No
+Nov 25 07:20:09 combo ftpd[12286]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 25,07:20:09,Normal,No
+Nov 25 07:34:14 combo su(pam_unix)[32608]: session opened for user news by (uid=0),,Nov 25,07:34:14,Normal,No
+Nov 25 07:39:41 combo sshd(pam_unix)[12681]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Nov 25,07:39:41,Auth Failure,No
+Nov 22 19:35:22 combo ftpd[24368]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Nov 22,19:35:22,Normal,No
+Nov 22 19:47:22 combo sshd(pam_unix)[19094]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 22,19:47:22,Auth Failure,No
+Nov 22 19:54:32 combo ftpd[25632]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 22,19:54:32,Normal,No
+Nov 22 19:58:46 combo ftpd[29718]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 22,19:58:46,Normal,No
+Nov 22 20:09:58 combo su(pam_unix)[31373]: session opened for user news by (uid=0),,Nov 22,20:09:58,Normal,No
+Nov 22 20:24:15 combo sshd(pam_unix)[16158]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Nov 22,20:24:15,Auth Failure,No
+Nov 22 20:24:17 combo ftpd[17878]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 22,20:24:17,Normal,No
+Nov 22 20:33:49 combo ftpd[13519]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 22,20:33:49,Normal,No
+Nov 22 20:43:10 combo sshd(pam_unix)[23665]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,061092085098.ctinets.com,Nov 22,20:43:10,Auth Failure,No
+Nov 22 20:48:24 combo ftpd[25217]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:50 2005,,Nov 22,20:48:24,Normal,No
+Nov 22 20:52:08 combo sshd(pam_unix)[30605]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,20:52:08,Auth Failure,No
+Nov 22 21:03:57 combo su(pam_unix)[8269]: session opened for user news by (uid=0),,Nov 22,21:03:57,Normal,No
+Nov 22 21:17:38 combo sshd(pam_unix)[12520]: session closed for user test,,Nov 22,21:17:38,Normal,No
+Nov 22 21:22:04 combo su(pam_unix)[6863]: session closed for user news,,Nov 22,21:22:04,Normal,No
+Nov 22 21:31:24 combo sshd(pam_unix)[31861]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root,82.77.200.128,Nov 22,21:31:24,Auth Failure,No
+Nov 22 21:45:50 combo sshd(pam_unix)[30588]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,21:45:50,Auth Failure,No
+Nov 22 21:52:31 combo ftpd[12284]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 22,21:52:31,Normal,No
+Nov 22 21:58:31 combo sshd(pam_unix)[23780]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Nov 22,21:58:31,Auth Failure,No
+Nov 22 22:12:33 combo su(pam_unix)[6486]: session opened for user cyrus by (uid=0),,Nov 22,22:12:33,Normal,No
+Nov 22 22:20:10 combo ftpd[26480]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 22,22:20:10,Normal,No
+Nov 22 22:31:41 combo ftpd[13154]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 22,22:31:41,Normal,No
+Nov 22 22:37:53 combo sshd(pam_unix)[30575]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,22:37:53,Auth Failure,No
+Nov 22 22:47:08 combo ftpd[24205]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:57 2005,,Nov 22,22:47:08,Normal,No
+Nov 22 22:50:09 combo sshd(pam_unix)[16234]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 22,22:50:09,Auth Failure,No
+Nov 22 22:59:40 combo kernel[-]: PCI: Probing PCI hardware (bus 00),,Nov 22,22:59:40,Normal,No
+Nov 22 23:05:27 combo sshd(pam_unix)[10053]: check pass; user unknown,,Nov 22,23:05:27,Normal,No
+Nov 22 23:16:32 combo kernel[-]: Initializing Cryptographic API,,Nov 22,23:16:32,Normal,No
+Nov 22 23:30:45 combo klogind[19270]: Kerberos authentication failed,,Nov 22,23:30:45,Normal,No
+Nov 22 23:44:17 combo ftpd[25644]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,23:44:17,Normal,No
+Nov 22 23:48:12 combo ftpd[17674]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 22,23:48:12,Normal,No
+Nov 22 23:51:08 combo sshd(pam_unix)[19643]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 22,23:51:08,Auth Failure,No
+Nov 23 00:05:24 combo ftpd[25039]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 23,00:05:24,Normal,No
+Nov 23 00:16:31 combo ftpd[15553]: connection from 208.62.55.75 () at Wed Jun 29 10:48:08 2005,,Nov 23,00:16:31,Normal,No
+Nov 23 00:19:11 combo sshd(pam_unix)[30575]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,00:19:11,Auth Failure,No
+Nov 23 00:21:52 combo sshd(pam_unix)[30580]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,00:21:52,Auth Failure,No
+Nov 23 00:27:11 combo sshd(pam_unix)[30578]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,00:27:11,Auth Failure,No
+Nov 23 00:41:30 combo klogind[19278]: Kerberos authentication failed,,Nov 23,00:41:30,Normal,No
+Nov 23 00:51:26 combo su(pam_unix)[30934]: session closed for user news,,Nov 23,00:51:26,Normal,No
+Nov 23 01:06:16 combo sshd(pam_unix)[23416]: check pass; user unknown,,Nov 23,01:06:16,Normal,No
+Nov 23 01:15:13 combo ftpd[15339]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 23,01:15:13,Normal,No
+Nov 23 01:15:46 combo su(pam_unix)[13665]: session opened for user cyrus by (uid=0),,Nov 23,01:15:46,Normal,No
+Nov 23 01:18:52 combo ftpd[15329]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 23,01:18:52,Normal,No
+Nov 23 01:24:02 combo ftpd[8832]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,,Nov 23,01:24:02,Normal,No
+Nov 23 01:25:37 combo ftpd[5016]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 23,01:25:37,Normal,No
+Nov 23 01:34:05 combo ftpd[29717]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 23,01:34:05,Normal,No
+Nov 23 01:36:22 combo su(pam_unix)[11756]: session opened for user news by (uid=0),,Nov 23,01:36:22,Normal,No
+Nov 23 01:38:11 combo sshd(pam_unix)[10049]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,65.166.159.14,Nov 23,01:38:11,Auth Failure,No
+Nov 23 01:42:26 combo sshd(pam_unix)[30729]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root,211.214.161.141,Nov 23,01:42:26,Auth Failure,No
+Nov 23 01:48:34 combo ftpd[23587]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 23,01:48:34,Normal,No
+Nov 23 01:57:32 combo ftpd[23588]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 23,01:57:32,Normal,No
+Nov 23 02:09:57 combo ftpd[23589]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 23,02:09:57,Normal,No
+Nov 23 02:11:54 combo ftpd[23777]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 23,02:11:54,Normal,No
+Nov 23 02:22:51 combo ftpd[23779]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 23,02:22:51,Normal,No
+Nov 23 02:33:07 combo ftpd[24357]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:43 2005,,Nov 23,02:33:07,Normal,No
+Nov 23 02:35:54 combo ftpd[23028]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 23,02:35:54,Normal,No
+Nov 23 02:40:08 combo ftpd[16780]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 23,02:40:08,Normal,No
+Nov 23 02:43:26 combo named[2306]: notify question section contains no SOA,,Nov 23,02:43:26,Normal,No
+Nov 23 02:48:31 combo sshd(pam_unix)[16156]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Nov 23,02:48:31,Auth Failure,No
+Nov 23 02:56:16 combo ftpd[9770]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 23,02:56:16,Normal,No
+Nov 23 02:56:33 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 23,02:56:33,Auth Failure,No
+Nov 23 03:00:17 combo ftpd[32071]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 23,03:00:17,Normal,No
+Nov 23 03:05:29 combo sshd(pam_unix)[3399]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 23,03:05:29,Auth Failure,No
+Nov 23 03:18:35 combo ftpd[24481]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 23,03:18:35,Normal,No
+Nov 23 03:23:22 combo sshd(pam_unix)[16207]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 23,03:23:22,Auth Failure,No
+Nov 23 03:37:41 combo ftpd[25045]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005,,Nov 23,03:37:41,Normal,No
+Nov 23 03:47:24 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 23,03:47:24,Service Issue,Yes
+Nov 23 03:56:38 combo sshd(pam_unix)[12756]: check pass; user unknown,,Nov 23,03:56:38,Normal,No
+Nov 23 04:03:49 combo ftpd[23566]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 23,04:03:49,Normal,No
+Nov 23 04:05:48 combo ftpd[24484]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:16 2005,,Nov 23,04:05:48,Normal,No
+Nov 23 04:11:57 combo ftpd[14106]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 23,04:11:57,Normal,No
+Nov 23 04:20:50 combo sshd(pam_unix)[19438]: session opened for user test by (uid=509),,Nov 23,04:20:50,Normal,No
+Nov 23 04:25:56 combo sshd(pam_unix)[14278]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Nov 23,04:25:56,Auth Failure,No
+Nov 23 04:30:52 combo su(pam_unix)[24898]: session opened for user cyrus by (uid=0),,Nov 23,04:30:52,Normal,No
+Nov 23 04:35:13 combo sshd(pam_unix)[24581]: check pass; user unknown,,Nov 23,04:35:13,Normal,No
+Nov 23 04:50:08 combo ftpd[5037]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 23,04:50:08,Normal,No
+Nov 23 04:58:15 combo ftpd[25628]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 23,04:58:15,Normal,No
+Nov 23 05:06:42 combo ftpd[16781]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 23,05:06:42,Normal,No
+Nov 23 05:20:24 combo sshd(pam_unix)[15479]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 23,05:20:24,Auth Failure,No
+Nov 23 05:34:44 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 23,05:34:44,Auth Failure,No
+Nov 23 05:37:44 combo sshd(pam_unix)[15480]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 23,05:37:44,Auth Failure,No
+Nov 23 05:45:24 combo sshd(pam_unix)[31031]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,massive.merukuru.org,Nov 23,05:45:24,Auth Failure,No
+Nov 23 05:59:23 combo ftpd[6583]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 23,05:59:23,Normal,No
+Nov 23 06:14:16 combo ftpd[24072]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 23,06:14:16,Normal,No
+Nov 23 06:21:01 combo ftpd[13255]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 23,06:21:01,Normal,No
+Nov 23 06:22:07 combo ftpd[24520]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 23,06:22:07,Normal,No
+Nov 23 06:31:41 combo ftpd[24522]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 23,06:31:41,Normal,No
+Nov 23 06:36:28 combo ftpd[24518]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 23,06:36:28,Normal,No
+Nov 23 06:49:20 combo ftpd[24523]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 23,06:49:20,Normal,No
+Nov 23 06:58:04 combo ftpd[24524]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 23,06:58:04,Normal,No
+Nov 23 07:00:52 combo sshd(pam_unix)[19085]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 23,07:00:52,Auth Failure,No
+Nov 23 07:04:48 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 23,07:04:48,Service Issue,Yes
+Nov 23 07:15:38 combo su(pam_unix)[30128]: session opened for user news by (uid=0),,Nov 23,07:15:38,Normal,No
+Nov 23 07:21:12 combo su(pam_unix)[30128]: session closed for user news,,Nov 23,07:21:12,Normal,No
+Nov 23 07:35:24 combo sshd(pam_unix)[30500]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root,202.181.236.180,Nov 23,07:35:24,Auth Failure,No
+Nov 23 07:48:43 combo sshd(pam_unix)[30510]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root,202.181.236.180,Nov 23,07:48:43,Auth Failure,No
+Nov 23 07:59:36 combo irqbalance[-]: irqbalance startup succeeded,,Nov 23,07:59:36,Normal,No
+Nov 23 08:03:41 combo ftpd[24202]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:53 2005,,Nov 23,08:03:41,Normal,No
+Nov 23 08:03:49 combo sshd(pam_unix)[19640]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 23,08:03:49,Auth Failure,No
+Nov 23 08:11:28 combo sshd(pam_unix)[28978]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Nov 23,08:11:28,Auth Failure,No
+Nov 23 08:17:05 combo ftpd[19674]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 04:06:32 2005,,Nov 23,08:17:05,Normal,No
+Nov 19 19:29:13 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,19:29:13,Service Issue,Yes
+Nov 19 19:36:50 combo klogind[19287]: Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,,Nov 19,19:36:50,Normal,No
+Nov 19 19:40:40 combo ftpd[25028]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 19,19:40:40,Normal,No
+Nov 19 19:55:38 combo su(pam_unix)[26938]: session opened for user cyrus by (uid=0),,Nov 19,19:55:38,Normal,No
+Nov 19 20:06:16 combo ftpd[24079]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 19,20:06:16,Normal,No
+Nov 19 20:11:58 combo ftpd[28689]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 19,20:11:58,Normal,No
+Nov 19 20:19:40 combo ftpd[25031]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 19,20:19:40,Normal,No
+Nov 19 20:31:26 combo ftpd[9775]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,20:31:26,Normal,No
+Nov 19 20:36:21 combo ftpd[9769]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,20:36:21,Normal,No
+Nov 19 20:49:13 combo ftpd[9776]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,20:49:13,Normal,No
+Nov 19 21:02:52 combo sshd(pam_unix)[28868]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 19,21:02:52,Auth Failure,No
+Nov 19 21:17:16 combo sshd(pam_unix)[28870]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 19,21:17:16,Auth Failure,No
+Nov 19 21:20:24 combo kernel[-]: Capability LSM initialized,,Nov 19,21:20:24,Normal,No
+Nov 19 21:27:41 combo su(pam_unix)[19593]: session opened for user news by (uid=0),,Nov 19,21:27:41,Normal,No
+Nov 19 21:35:45 combo su(pam_unix)[17778]: session opened for user news by (uid=0),,Nov 19,21:35:45,Normal,No
+Nov 19 21:47:29 combo sshd(pam_unix)[19087]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 19,21:47:29,Auth Failure,No
+Nov 19 21:48:27 combo sshd(pam_unix)[28876]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 19,21:48:27,Auth Failure,No
+Nov 19 22:00:41 combo sshd(pam_unix)[30635]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,22:00:41,Auth Failure,No
+Nov 19 22:01:04 combo ftpd[23026]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 19,22:01:04,Normal,No
+Nov 19 22:07:27 combo su(pam_unix)[1546]: session opened for user news by (uid=0),,Nov 19,22:07:27,Normal,No
+Nov 19 22:07:58 combo su(pam_unix)[20282]: session closed for user news,,Nov 19,22:07:58,Normal,No
+Nov 19 22:11:23 combo ftpd[23146]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 19,22:11:23,Normal,No
+Nov 19 22:24:42 combo sshd(pam_unix)[14280]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Nov 19,22:24:42,Auth Failure,No
+Nov 19 22:37:30 combo syslogd 1.4.1[-]: restart.,,Nov 19,22:37:30,Normal,No
+Nov 19 22:37:37 combo klogind[19270]: Kerberos authentication failed,,Nov 19,22:37:37,Normal,No
+Nov 19 22:47:29 combo ftpd[768]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 19,22:47:29,Normal,No
+Nov 19 22:57:51 combo klogind[19285]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Nov 19,22:57:51,Normal,No
+Nov 19 23:04:03 combo ftpd[22667]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Nov 19,23:04:03,Normal,No
+Nov 19 23:12:12 combo ftpd[13161]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 19,23:12:12,Normal,No
+Nov 19 23:24:17 combo ftpd[13162]: connection from 67.95.49.172 () at Fri Jul 22 19:29:10 2005,,Nov 19,23:24:17,Normal,No
+Nov 19 23:28:28 combo su(pam_unix)[14314]: session opened for user cyrus by (uid=0),,Nov 19,23:28:28,Normal,No
+Nov 19 23:30:16 combo su(pam_unix)[14314]: session closed for user cyrus,,Nov 19,23:30:16,Normal,No
+Nov 19 23:41:54 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,23:41:54,Service Issue,Yes
+Nov 19 23:45:15 combo sshd(pam_unix)[3391]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 19,23:45:15,Auth Failure,No
+Nov 19 23:58:13 combo sshd(pam_unix)[3394]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 19,23:58:13,Auth Failure,No
+Nov 20 00:12:20 combo sshd(pam_unix)[3396]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,00:12:20,Auth Failure,No
+Nov 20 00:18:52 combo sshd(pam_unix)[3399]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,00:18:52,Auth Failure,No
+Nov 20 00:28:53 combo sshd(pam_unix)[3398]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,00:28:53,Auth Failure,No
+Nov 20 00:41:06 combo ftpd[13160]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 20,00:41:06,Normal,No
+Nov 20 00:49:35 combo ftpd[15552]: connection from 208.62.55.75 () at Wed Jun 29 10:48:08 2005,,Nov 20,00:49:35,Normal,No
+Nov 20 00:50:39 combo ftpd[17891]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 20,00:50:39,Normal,No
+Nov 20 00:52:02 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,00:52:02,Service Issue,Yes
+Nov 20 00:53:35 combo su(pam_unix)[17407]: session opened for user cyrus by (uid=0),,Nov 20,00:53:35,Normal,No
+Nov 20 00:57:19 combo ftpd[24082]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 20,00:57:19,Normal,No
+Nov 20 01:02:17 combo su(pam_unix)[26964]: session closed for user cyrus,,Nov 20,01:02:17,Normal,No
+Nov 20 01:04:31 combo sshd(pam_unix)[22275]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,195.129.24.210,Nov 20,01:04:31,Auth Failure,No
+Nov 20 01:14:53 combo ftpd[29736]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Nov 20,01:14:53,Normal,No
+Nov 20 01:23:24 combo ftpd[32049]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 20,01:23:24,Normal,No
+Nov 20 01:27:04 combo named[2306]: notify question section contains no SOA,,Nov 20,01:27:04,Normal,No
+Nov 20 01:35:12 combo ftpd[14109]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 20,01:35:12,Normal,No
+Nov 20 01:48:00 combo ftpd[14110]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 20,01:48:00,Normal,No
+Nov 20 02:02:19 combo ftpd[14111]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 20,02:02:19,Normal,No
+Nov 20 02:12:38 combo ftpd[14112]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 20,02:12:38,Normal,No
+Nov 20 02:13:35 combo ftpd[14113]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 20,02:13:35,Normal,No
+Nov 20 02:24:06 combo sshd(pam_unix)[18969]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 20,02:24:06,Auth Failure,No
+Nov 20 02:27:14 combo sshd(pam_unix)[3384]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,02:27:14,Auth Failure,No
+Nov 20 02:42:09 combo ftpd[23140]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 20,02:42:09,Normal,No
+Nov 20 02:54:40 combo sshd(pam_unix)[12628]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 20,02:54:40,Auth Failure,No
+Nov 20 03:04:11 combo named[2306]: notify question section contains no SOA,,Nov 20,03:04:11,Normal,No
+Nov 20 03:18:14 combo ftpd[25231]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 20,03:18:14,Normal,No
+Nov 20 03:20:20 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,03:20:20,Service Issue,Yes
+Nov 20 03:23:07 combo ftpd[13142]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 20,03:23:07,Normal,No
+Nov 20 03:33:37 combo ftpd[26484]: getpeername (ftpd): Transport endpoint is not connected,,Nov 20,03:33:37,Normal,No
+Nov 20 03:38:23 combo klogind[19288]: Kerberos authentication failed,,Nov 20,03:38:23,Normal,No
+Nov 20 03:49:56 combo ftpd[23560]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 20,03:49:56,Normal,No
+Nov 20 03:55:38 combo ftpd[31460]: connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005,,Nov 20,03:55:38,Normal,No
+Nov 20 04:08:56 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 20,04:08:56,Normal,No
+Nov 20 04:09:28 combo ftpd[2825]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,04:09:28,Normal,No
+Nov 20 04:23:50 combo ftpd[12297]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 20,04:23:50,Normal,No
+Nov 20 04:36:42 combo ftpd[17872]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 20,04:36:42,Normal,No
+Nov 20 04:39:53 combo ftpd[29733]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Nov 20,04:39:53,Normal,No
+Nov 20 04:40:53 combo sshd(pam_unix)[19088]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 20,04:40:53,Auth Failure,No
+Nov 20 04:46:52 combo sshd(pam_unix)[30634]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,04:46:52,Auth Failure,No
+Nov 20 04:54:11 combo ftpd[9779]: connection from 211.72.151.162 () at Wed Jul  6 18:00:57 2005,,Nov 20,04:54:11,Normal,No
+Nov 20 05:07:18 combo ftpd[26479]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 20,05:07:18,Normal,No
+Nov 20 05:15:47 combo sshd(pam_unix)[16159]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Nov 20,05:15:47,Auth Failure,No
+Nov 20 05:17:55 combo ftpd[15549]: connection from 208.62.55.75 () at Wed Jun 29 10:48:06 2005,,Nov 20,05:17:55,Normal,No
+Nov 20 05:28:55 combo ftpd[25219]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 20,05:28:55,Normal,No
+Nov 20 05:29:34 combo sshd(pam_unix)[24583]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,zummit.com,Nov 20,05:29:34,Auth Failure,No
+Nov 20 05:31:00 combo sshd(pam_unix)[19087]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 20,05:31:00,Auth Failure,No
+Nov 20 05:31:43 combo ftpd[28705]: connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,,Nov 20,05:31:43,Normal,No
+Nov 20 05:44:48 combo ftpd[17889]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 20,05:44:48,Normal,No
+Nov 20 05:51:08 combo named[2306]: notify question section contains no SOA,,Nov 20,05:51:08,Normal,No
+Nov 20 05:56:08 combo ftpd[758]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 20,05:56:08,Normal,No
+Nov 20 05:59:42 combo ftpd[32060]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 20,05:59:42,Normal,No
+Nov 20 06:03:04 combo ftpd[30285]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,06:03:04,Normal,No
+Nov 20 06:03:44 combo sshd(pam_unix)[8662]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=troi.bluesky-technologies.com  user=root,troi.bluesky-technologies.com,Nov 20,06:03:44,Auth Failure,No
+Nov 20 06:05:52 combo sshd(pam_unix)[8661]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=troi.bluesky-technologies.com  user=root,troi.bluesky-technologies.com,Nov 20,06:05:52,Auth Failure,No
+Nov 20 06:07:15 combo su(pam_unix)[10735]: session opened for user cyrus by (uid=0),,Nov 20,06:07:15,Normal,No
+Nov 20 06:20:35 combo su(pam_unix)[10735]: session closed for user cyrus,,Nov 20,06:20:35,Normal,No
+Nov 20 06:26:12 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,06:26:12,Service Issue,Yes
+Nov 20 06:36:30 combo ftpd[23034]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 20,06:36:30,Normal,No
+Nov 20 06:38:17 combo sshd(pam_unix)[19636]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 20,06:38:17,Auth Failure,No
+Nov 20 06:42:08 combo sshd(pam_unix)[31202]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,adsl-70-242-75-179.dsl.ksc2mo.swbell.net,Nov 20,06:42:08,Auth Failure,No
+Nov 20 06:53:00 combo sshd(pam_unix)[24581]: check pass; user unknown,,Nov 20,06:53:00,Normal,No
+Nov 20 07:00:11 combo sshd(pam_unix)[23399]: check pass; user unknown,,Nov 20,07:00:11,Normal,No
+Nov 20 07:07:54 combo ftpd[30281]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,07:07:54,Normal,No
+Nov 20 07:21:36 combo ftpd[25046]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005,,Nov 20,07:21:36,Normal,No
+Nov 20 07:28:50 combo ftpd[28703]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 20,07:28:50,Normal,No
+Nov 20 07:30:36 combo sshd(pam_unix)[3390]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,07:30:36,Auth Failure,No
+Nov 13 19:29:55 combo sshd(pam_unix)[31035]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=massive.merukuru.org,massive.merukuru.org,Nov 13,19:29:55,Auth Failure,No
+Nov 13 19:36:57 combo ftpd[25222]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 13,19:36:57,Normal,No
+Nov 13 19:46:22 combo ftpd[25226]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 13,19:46:22,Normal,No
+Nov 13 19:58:12 combo sshd(pam_unix)[30566]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 13,19:58:12,Auth Failure,No
+Nov 13 20:07:01 combo syslogd 1.4.1[-]: restart.,,Nov 13,20:07:01,Normal,No
+Nov 13 20:17:47 combo sshd(pam_unix)[30670]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 13,20:17:47,Auth Failure,No
+Nov 13 20:28:21 combo ftpd[13144]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 13,20:28:21,Normal,No
+Nov 13 20:33:36 combo ftpd[13154]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 13,20:33:36,Normal,No
+Nov 13 20:46:17 combo ftpd[13155]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 13,20:46:17,Normal,No
+Nov 13 20:47:11 combo ftpd[13156]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 13,20:47:11,Normal,No
+Nov 13 20:49:46 combo ftpd[13157]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 13,20:49:46,Normal,No
+Nov 13 20:50:57 combo ftpd[9763]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 13,20:50:57,Normal,No
+Nov 13 20:56:44 combo ftpd[30282]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 13,20:56:44,Normal,No
+Nov 13 21:05:30 combo ftpd[17884]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 13,21:05:30,Normal,No
+Nov 13 21:12:10 combo su(pam_unix)[24683]: session closed for user news,,Nov 13,21:12:10,Normal,No
+Nov 13 21:12:49 combo su(pam_unix)[12193]: session closed for user news,,Nov 13,21:12:49,Normal,No
+Nov 13 21:27:09 combo su(pam_unix)[22644]: session closed for user news,,Nov 13,21:27:09,Normal,No
+Nov 13 21:32:03 combo ftpd[16785]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 13,21:32:03,Normal,No
+Nov 13 21:46:24 combo sshd(pam_unix)[20963]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 13,21:46:24,Auth Failure,No
+Nov 13 21:53:02 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 13,21:53:02,Service Issue,Yes
+Nov 13 21:53:11 combo ftpd[8822]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,,Nov 13,21:53:11,Normal,No
+Nov 13 21:53:49 combo ftpd[23777]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 13,21:53:49,Normal,No
+Nov 13 21:54:41 combo ftpd[25235]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 13,21:54:41,Normal,No
+Nov 13 22:06:21 combo ftpd[13260]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,22:06:21,Normal,No
+Nov 13 22:14:42 combo ftpd[13259]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,22:14:42,Normal,No
+Nov 13 22:25:45 combo ftpd[13256]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,22:25:45,Normal,No
+Nov 13 22:32:24 combo ftpd[13258]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,22:32:24,Normal,No
+Nov 13 22:34:39 combo ftpd[13255]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,22:34:39,Normal,No
+Nov 13 22:44:29 combo sshd(pam_unix)[28870]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 13,22:44:29,Auth Failure,No
+Nov 13 22:46:10 combo su(pam_unix)[29758]: session opened for user cyrus by (uid=0),,Nov 13,22:46:10,Normal,No
+Nov 13 22:49:01 combo sshd(pam_unix)[30532]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 13,22:49:01,Auth Failure,No
+Nov 13 22:49:52 combo ftpd[17674]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 13,22:49:52,Normal,No
+Nov 13 22:52:46 combo sshd(pam_unix)[19643]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 13,22:52:46,Auth Failure,No
+Nov 13 22:54:03 combo sshd(pam_unix)[22104]: session closed for user test,,Nov 13,22:54:03,Normal,No
+Nov 13 22:57:44 combo sshd(pam_unix)[15490]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 13,22:57:44,Auth Failure,No
+Nov 13 23:03:09 combo su(pam_unix)[3833]: session closed for user news,,Nov 13,23:03:09,Normal,No
+Nov 13 23:10:54 combo ftpd[26472]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 13,23:10:54,Normal,No
+Nov 13 23:23:22 combo su(pam_unix)[12098]: session closed for user cyrus,,Nov 13,23:23:22,Normal,No
+Nov 13 23:31:06 combo ftpd[13243]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,23:31:06,Normal,No
+Nov 13 23:32:47 combo ftpd[13249]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,23:32:47,Normal,No
+Nov 13 23:38:19 combo ftpd[13253]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,23:38:19,Normal,No
+Nov 13 23:45:30 combo ftpd[13247]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,23:45:30,Normal,No
+Nov 13 23:59:38 combo ftpd[13248]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 13,23:59:38,Normal,No
+Nov 14 00:05:32 combo ftpd[13514]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 14,00:05:32,Normal,No
+Nov 14 00:18:59 combo ftpd[16786]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 14,00:18:59,Normal,No
+Nov 14 00:24:46 combo ftpd[2830]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 14,00:24:46,Normal,No
+Nov 14 00:25:00 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 14,00:25:00,Service Issue,Yes
+Nov 14 00:39:57 combo ftpd[17685]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 14,00:39:57,Normal,No
+Nov 14 00:43:20 combo ftpd[24483]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:16 2005,,Nov 14,00:43:20,Normal,No
+Nov 14 00:52:38 combo ftpd[6584]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 14,00:52:38,Normal,No
+Nov 14 01:02:56 combo ftpd[24525]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 14,01:02:56,Normal,No
+Nov 14 01:16:39 combo ftpd[24201]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005,,Nov 14,01:16:39,Normal,No
+Nov 14 01:17:10 combo sshd(pam_unix)[23395]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 14,01:17:10,Auth Failure,No
+Nov 14 01:29:18 combo ftpd[13522]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 14,01:29:18,Normal,No
+Nov 14 01:35:54 combo ftpd[17891]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 14,01:35:54,Normal,No
+Nov 14 01:46:09 combo ftpd[26472]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 14,01:46:09,Normal,No
+Nov 14 01:58:38 combo sshd(pam_unix)[22275]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,195.129.24.210,Nov 14,01:58:38,Auth Failure,No
+Nov 14 02:03:59 combo su(pam_unix)[7106]: session opened for user cyrus by (uid=0),,Nov 14,02:03:59,Normal,No
+Nov 14 02:07:49 combo ftpd[23150]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 14,02:07:49,Normal,No
+Nov 14 02:18:43 combo klogind[19272]: Kerberos authentication failed,,Nov 14,02:18:43,Normal,No
+Nov 14 02:29:11 combo ftpd[17878]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 14,02:29:11,Normal,No
+Nov 14 02:43:06 combo sshd(pam_unix)[23780]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Nov 14,02:43:06,Auth Failure,No
+Nov 14 02:47:24 combo ftpd[24079]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 14,02:47:24,Normal,No
+Nov 14 02:54:19 combo ftpd[21940]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 14,02:54:19,Normal,No
+Nov 14 02:57:48 combo su(pam_unix)[3833]: session opened for user news by (uid=0),,Nov 14,02:57:48,Normal,No
+Nov 14 03:01:34 combo sshd(pam_unix)[26193]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root,218.22.3.51,Nov 14,03:01:34,Auth Failure,No
+Nov 14 03:07:03 combo su(pam_unix)[9355]: session opened for user cyrus by (uid=0),,Nov 14,03:07:03,Normal,No
+Nov 14 03:20:55 combo sshd(pam_unix)[24587]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,zummit.com,Nov 14,03:20:55,Auth Failure,No
+Nov 14 03:31:17 combo ftpd[13154]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 14,03:31:17,Normal,No
+Nov 14 03:41:59 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 14,03:41:59,Normal,No
+Nov 14 03:50:44 combo ftpd[23149]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 14,03:50:44,Normal,No
+Nov 14 04:04:55 combo ftpd[28691]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 14,04:04:55,Normal,No
+Nov 14 04:08:30 combo ftpd[28686]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 14,04:08:30,Normal,No
+Nov 14 04:12:14 combo ftpd[28687]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 14,04:12:14,Normal,No
+Nov 14 04:25:39 combo sshd(pam_unix)[16156]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Nov 14,04:25:39,Auth Failure,No
+Nov 14 04:33:07 combo ftpd[23939]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Nov 14,04:33:07,Normal,No
+Nov 14 04:34:33 combo ftpd[24470]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 14,04:34:33,Normal,No
+Nov 14 04:43:27 combo su(pam_unix)[1583]: session closed for user cyrus,,Nov 14,04:43:27,Normal,No
+Nov 14 04:48:46 combo ftpd[17874]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 14,04:48:46,Normal,No
+Nov 14 04:50:14 combo ftpd[31281]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005,,Nov 14,04:50:14,Normal,No
+Nov 14 05:04:26 combo klogind[19272]: Kerberos authentication failed,,Nov 14,05:04:26,Normal,No
+Nov 14 05:10:35 combo ftpd[15339]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 14,05:10:35,Normal,No
+Nov 14 05:13:59 combo su(pam_unix)[24683]: session closed for user news,,Nov 14,05:13:59,Normal,No
+Nov 14 05:15:43 combo sshd(pam_unix)[10053]: check pass; user unknown,,Nov 14,05:15:43,Normal,No
+Nov 14 05:20:57 combo sshd(pam_unix)[10053]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,65.166.159.14,Nov 14,05:20:57,Auth Failure,No
+Nov 14 05:21:56 combo ftpd[23570]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 14,05:21:56,Normal,No
+Nov 14 05:23:26 combo ftpd[13149]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 14,05:23:26,Normal,No
+Nov 14 05:35:49 combo ftpd[12286]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 14,05:35:49,Normal,No
+Nov 14 05:43:38 combo sshd(pam_unix)[3380]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 14,05:43:38,Auth Failure,No
+Nov 14 05:57:49 combo sshd(pam_unix)[16206]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 14,05:57:49,Auth Failure,No
+Nov 14 05:58:49 combo ftpd[24372]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:59 2005,,Nov 14,05:58:49,Normal,No
+Nov 14 06:06:19 combo su(pam_unix)[31791]: session closed for user cyrus,,Nov 14,06:06:19,Normal,No
+Nov 14 06:07:06 combo sshd(pam_unix)[31021]: check pass; user unknown,,Nov 14,06:07:06,Normal,No
+Nov 14 06:12:21 combo ftpd[31472]: connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005,,Nov 14,06:12:21,Normal,No
+Nov 14 06:18:12 combo ftpd[25228]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 14,06:18:12,Normal,No
+Nov 14 06:20:24 combo ftpd[28704]: connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,,Nov 14,06:20:24,Normal,No
+Nov 14 06:24:28 combo sshd(pam_unix)[18982]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 14,06:24:28,Auth Failure,No
+Nov 14 06:32:22 combo sshd(pam_unix)[30731]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root,211.214.161.141,Nov 14,06:32:22,Auth Failure,No
+Nov 14 06:39:16 combo ftpd[5020]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 14,06:39:16,Normal,No
+Nov 14 06:47:06 combo kernel[-]: Intel machine check reporting enabled on CPU#0.,,Nov 14,06:47:06,Normal,No
+Nov 19 19:30:04 combo ftpd[23148]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 19,19:30:04,Normal,No
+Nov 19 19:40:51 combo sshd(pam_unix)[12645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 19,19:40:51,Auth Failure,No
+Nov 19 19:48:04 combo ftpd[25043]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 19,19:48:04,Normal,No
+Nov 19 19:56:36 combo sshd(pam_unix)[12630]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 19,19:56:36,Auth Failure,No
+Nov 19 20:04:53 combo ftpd[28690]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 19,20:04:53,Normal,No
+Nov 19 20:18:45 combo ftpd[23144]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 19,20:18:45,Normal,No
+Nov 19 20:31:55 combo sshd(pam_unix)[4050]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root,68.143.156.89.nw.nuvox.net,Nov 19,20:31:55,Auth Failure,No
+Nov 19 20:42:50 combo ftpd[13154]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 19,20:42:50,Normal,No
+Nov 19 20:45:13 combo named[2306]: notify question section contains no SOA,,Nov 19,20:45:13,Normal,No
+Nov 19 20:54:05 combo su(pam_unix)[9355]: session closed for user cyrus,,Nov 19,20:54:05,Normal,No
+Nov 19 21:04:17 combo named[2306]: notify question section contains no SOA,,Nov 19,21:04:17,Normal,No
+Nov 19 21:19:09 combo ftpd[13144]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 19,21:19:09,Normal,No
+Nov 19 21:23:55 combo sshd(pam_unix)[3378]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 19,21:23:55,Auth Failure,No
+Nov 19 21:28:22 combo su(pam_unix)[32608]: session closed for user news,,Nov 19,21:28:22,Normal,No
+Nov 19 21:39:41 combo sshd(pam_unix)[31203]: check pass; user unknown,,Nov 19,21:39:41,Normal,No
+Nov 19 21:51:12 combo sdpd[1696]: sdpd v1.5 started,,Nov 19,21:51:12,Normal,No
+Nov 19 21:53:04 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 19,21:53:04,Normal,No
+Nov 19 22:03:34 combo ftpd[16786]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 19,22:03:34,Normal,No
+Nov 19 22:13:21 combo cups[-]: cupsd startup succeeded,,Nov 19,22:13:21,Normal,No
+Nov 19 22:19:33 combo ftpd[23589]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 19,22:19:33,Normal,No
+Nov 19 22:33:58 combo sshd(pam_unix)[16224]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 19,22:33:58,Auth Failure,No
+Nov 19 22:41:44 combo sysctl[-]: kernel.core_uses_pid = 1,,Nov 19,22:41:44,Normal,No
+Nov 19 22:55:46 combo sshd(pam_unix)[23535]: session opened for user test by (uid=509),,Nov 19,22:55:46,Normal,No
+Nov 19 23:05:40 combo ftpd[9763]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,23:05:40,Normal,No
+Nov 19 23:08:55 combo ftpd[14120]: connection from 221.4.102.93 () at Thu Jul  7 23:09:47 2005,,Nov 19,23:08:55,Normal,No
+Nov 19 23:14:46 combo sshd(pam_unix)[30602]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,23:14:46,Auth Failure,No
+Nov 19 23:21:57 combo sshd(pam_unix)[17132]: check pass; user unknown,,Nov 19,23:21:57,Normal,No
+Nov 19 23:36:38 combo ftpd[17880]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 19,23:36:38,Normal,No
+Nov 19 23:39:04 combo ftpd[23566]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 19,23:39:04,Normal,No
+Nov 19 23:51:36 combo ftpd[25636]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 19,23:51:36,Normal,No
+Nov 20 00:04:47 combo sshd(pam_unix)[12681]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Nov 20,00:04:47,Auth Failure,No
+Nov 20 00:18:07 combo sshd(pam_unix)[15478]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 20,00:18:07,Auth Failure,No
+Nov 20 00:18:41 combo ftpd[13261]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,00:18:41,Normal,No
+Nov 20 00:32:37 combo ftpd[13250]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,00:32:37,Normal,No
+Nov 20 00:37:07 combo ftpd[13252]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,00:37:07,Normal,No
+Nov 20 00:43:07 combo ftpd[13260]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 20,00:43:07,Normal,No
+Nov 20 00:53:22 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,00:53:22,Service Issue,Yes
+Nov 20 00:57:55 combo sshd(pam_unix)[15480]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 20,00:57:55,Auth Failure,No
+Nov 20 01:12:16 combo sshd(pam_unix)[23663]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,061092085098.ctinets.com,Nov 20,01:12:16,Auth Failure,No
+Nov 20 01:20:39 combo ftpd[9771]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 20,01:20:39,Normal,No
+Nov 20 01:23:56 combo ftpd[28565]: connection from 218.69.108.57 () at Fri Jun 24 18:55:11 2005,,Nov 20,01:23:56,Normal,No
+Nov 20 01:25:35 combo sshd(pam_unix)[23406]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 20,01:25:35,Auth Failure,No
+Nov 20 01:30:21 combo ftpd[29725]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 20,01:30:21,Normal,No
+Nov 20 01:43:50 combo ftpd[24468]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 20,01:43:50,Normal,No
+Nov 20 01:52:52 combo kernel[-]: SELinux:  Registering netfilter hooks,,Nov 20,01:52:52,Normal,No
+Nov 20 02:02:03 combo sshd(pam_unix)[31035]: check pass; user unknown,,Nov 20,02:02:03,Normal,No
+Nov 20 02:11:52 combo sshd(pam_unix)[30685]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,02:11:52,Auth Failure,No
+Nov 20 02:26:26 combo ftpd[31285]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005,,Nov 20,02:26:26,Normal,No
+Nov 20 02:31:27 combo ftpd[31286]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:12 2005,,Nov 20,02:31:27,Normal,No
+Nov 20 02:33:19 combo ftpd[31277]: User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,,Nov 20,02:33:19,Normal,No
+Nov 20 02:45:40 combo su(pam_unix)[31791]: session opened for user cyrus by (uid=0),,Nov 20,02:45:40,Normal,No
+Nov 20 02:57:51 combo ftpd[24467]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 20,02:57:51,Normal,No
+Nov 20 03:04:17 combo sshd(pam_unix)[15710]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net  user=root,h64-187-1-131.gtconnect.net,Nov 20,03:04:17,Auth Failure,No
+Nov 20 03:06:03 combo ftpd[26472]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 20,03:06:03,Normal,No
+Nov 20 03:17:03 combo ftpd[24367]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Nov 20,03:17:03,Normal,No
+Nov 20 03:28:33 combo ftpd[29718]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 20,03:28:33,Normal,No
+Nov 20 03:37:52 combo ftpd[28708]: connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,,Nov 20,03:37:52,Normal,No
+Nov 20 03:45:29 combo sshd(pam_unix)[28842]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:45:29,Auth Failure,No
+Nov 20 03:46:03 combo sshd(pam_unix)[28844]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:46:03,Auth Failure,No
+Nov 20 03:50:18 combo sshd(pam_unix)[28846]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,03:50:18,Auth Failure,No
+Nov 20 04:01:24 combo sshd(pam_unix)[28848]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,04:01:24,Auth Failure,No
+Nov 20 04:07:46 combo ftpd[24486]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:16 2005,,Nov 20,04:07:46,Normal,No
+Nov 20 04:19:23 combo ftpd[9765]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 20,04:19:23,Normal,No
+Nov 20 04:22:30 combo su(pam_unix)[3676]: session opened for user news by (uid=0),,Nov 20,04:22:30,Normal,No
+Nov 20 04:33:11 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,04:33:11,Service Issue,Yes
+Nov 20 04:38:14 combo ftpd[21950]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 20,04:38:14,Normal,No
+Nov 20 04:48:41 combo sshd(pam_unix)[23403]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 20,04:48:41,Auth Failure,No
+Nov 20 04:50:30 combo kernel[-]: CPU: Intel Pentium III (Coppermine) stepping 06,,Nov 20,04:50:30,Normal,No
+Nov 20 05:02:32 combo sshd(pam_unix)[28987]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Nov 20,05:02:32,Auth Failure,No
+Nov 20 05:09:45 combo kernel[-]: mapped 4G/4G trampoline to ffff3000.,,Nov 20,05:09:45,Normal,No
+Nov 20 05:20:45 combo sshd(pam_unix)[19636]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 20,05:20:45,Auth Failure,No
+Nov 20 05:25:48 combo sshd(pam_unix)[23661]: check pass; user unknown,,Nov 20,05:25:48,Normal,No
+Nov 20 05:29:50 combo ftpd[6582]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 20,05:29:50,Normal,No
+Nov 20 05:35:41 combo kernel[-]: ACPI: Subsystem revision 20040326,,Nov 20,05:35:41,Normal,No
+Nov 20 05:36:56 combo ftpd[5034]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 20,05:36:56,Normal,No
+Nov 20 05:49:41 combo klogind[19285]: Kerberos authentication failed,,Nov 20,05:49:41,Normal,No
+Nov 20 05:52:02 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,05:52:02,Service Issue,Yes
+Nov 20 05:53:41 combo sshd(pam_unix)[31205]: check pass; user unknown,,Nov 20,05:53:41,Normal,No
+Nov 20 06:06:04 combo klogind[19266]: Kerberos authentication failed,,Nov 20,06:06:04,Normal,No
+Nov 20 06:18:28 combo ftpd[17672]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 20,06:18:28,Normal,No
+Nov 20 06:21:03 combo sshd(pam_unix)[31854]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root,82.77.200.128,Nov 20,06:21:03,Auth Failure,No
+Nov 20 06:29:35 combo ftpd[24078]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 20,06:29:35,Normal,No
+Nov 20 06:42:14 combo ftpd[13162]: connection from 67.95.49.172 () at Fri Jul 22 19:29:10 2005,,Nov 20,06:42:14,Normal,No
+Nov 20 06:43:57 combo su(pam_unix)[11106]: session opened for user news by (uid=0),,Nov 20,06:43:57,Normal,No
+Nov 20 06:51:25 combo ftpd[23222]: connection from 81.171.220.226 () at Sat Jul  9 12:59:45 2005,,Nov 20,06:51:25,Normal,No
+"Nov 20 07:00:55 combo kernel[-]: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",,Nov 20,07:00:55,Normal,No
+Nov 20 07:10:39 combo sshd(pam_unix)[30654]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,07:10:39,Auth Failure,No
+Nov 20 07:21:48 combo su(pam_unix)[29690]: session opened for user cyrus by (uid=0),,Nov 20,07:21:48,Normal,No
+Nov 20 07:25:32 combo ftpd[25048]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005,,Nov 20,07:25:32,Normal,No
+Nov 20 07:26:02 combo ftpd[16781]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 20,07:26:02,Normal,No
+Nov 20 07:30:03 combo sshd(pam_unix)[28864]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 20,07:30:03,Auth Failure,No
+Nov 20 07:42:33 combo ftpd[13511]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 20,07:42:33,Normal,No
+Nov 20 07:55:06 combo ftpd[23777]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 20,07:55:06,Normal,No
+Nov 20 08:07:16 combo ftpd[24975]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Nov 20,08:07:16,Normal,No
+Nov 20 08:12:42 combo klogind[19278]: Kerberos authentication failed,,Nov 20,08:12:42,Normal,No
+Nov 20 08:26:50 combo udev[12798]: creating device node '/udev/vcsa2',,Nov 20,08:26:50,Normal,No
+Nov 20 08:40:01 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,08:40:01,Service Issue,Yes
+Nov 20 08:42:00 combo ftpd[22665]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Nov 20,08:42:00,Normal,No
+Nov 20 08:44:01 combo ftpd[30283]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,08:44:01,Normal,No
+Nov 20 08:58:46 combo su(pam_unix)[19534]: session closed for user cyrus,,Nov 20,08:58:46,Normal,No
+Nov 23 19:39:08 combo ftpd[23144]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 23,19:39:08,Normal,No
+Nov 23 19:42:24 combo ftpd[29725]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 23,19:42:24,Normal,No
+Nov 23 19:46:10 combo sshd(pam_unix)[30500]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root,202.181.236.180,Nov 23,19:46:10,Auth Failure,No
+Nov 23 19:48:14 combo ftpd[31470]: connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005,,Nov 23,19:48:14,Normal,No
+Nov 23 19:58:42 combo su(pam_unix)[32608]: session opened for user news by (uid=0),,Nov 23,19:58:42,Normal,No
+Nov 23 20:02:08 combo ftpd[32063]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 23,20:02:08,Normal,No
+Nov 23 20:16:47 combo sshd(pam_unix)[28986]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Nov 23,20:16:47,Auth Failure,No
+Nov 23 20:28:54 combo sshd(pam_unix)[18547]: check pass; user unknown,,Nov 23,20:28:54,Normal,No
+Nov 23 20:41:22 combo sshd(pam_unix)[23780]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Nov 23,20:41:22,Auth Failure,No
+Nov 23 20:44:21 combo sshd(pam_unix)[19433]: session opened for user test by (uid=509),,Nov 23,20:44:21,Normal,No
+Nov 23 20:50:47 combo ftpd[30287]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 23,20:50:47,Normal,No
+Nov 23 21:00:27 combo su(pam_unix)[28416]: session opened for user news by (uid=0),,Nov 23,21:00:27,Normal,No
+Nov 23 21:05:16 combo su(pam_unix)[10735]: session opened for user cyrus by (uid=0),,Nov 23,21:05:16,Normal,No
+Nov 23 21:05:31 combo ftpd[5016]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 23,21:05:31,Normal,No
+Nov 23 21:09:56 combo sshd(pam_unix)[19642]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 23,21:09:56,Auth Failure,No
+Nov 23 21:23:44 combo ftpd[6580]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 23,21:23:44,Normal,No
+Nov 23 21:30:48 combo sshd(pam_unix)[30666]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,21:30:48,Auth Failure,No
+Nov 23 21:32:04 combo su(pam_unix)[1595]: session closed for user news,,Nov 23,21:32:04,Normal,No
+Nov 23 21:43:36 combo sshd(pam_unix)[3307]: check pass; user unknown,,Nov 23,21:43:36,Normal,No
+Nov 23 21:52:18 combo sshd(pam_unix)[3307]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102,218.55.234.102,Nov 23,21:52:18,Auth Failure,No
+Nov 23 21:55:58 combo sshd(pam_unix)[3306]: check pass; user unknown,,Nov 23,21:55:58,Normal,No
+Nov 23 22:09:10 combo sshd(pam_unix)[3306]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.55.234.102,218.55.234.102,Nov 23,22:09:10,Auth Failure,No
+Nov 23 22:09:47 combo sshd(pam_unix)[23665]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,061092085098.ctinets.com,Nov 23,22:09:47,Auth Failure,No
+Nov 23 22:11:15 combo sshd(pam_unix)[6560]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,210.229.150.228,Nov 23,22:11:15,Auth Failure,No
+Nov 23 22:25:17 combo sshd(pam_unix)[12525]: session opened for user test by (uid=509),,Nov 23,22:25:17,Normal,No
+Nov 23 22:33:52 combo ftpd[6582]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 23,22:33:52,Normal,No
+Nov 23 22:41:10 combo klogind[19275]: Kerberos authentication failed,,Nov 23,22:41:10,Normal,No
+Nov 23 22:52:58 combo sshd(pam_unix)[23781]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root,p15105218.pureserver.info,Nov 23,22:52:58,Auth Failure,No
+Nov 23 22:59:21 combo ftpd[19674]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 04:06:32 2005,,Nov 23,22:59:21,Normal,No
+Nov 23 23:05:34 combo su(pam_unix)[26353]: session closed for user news,,Nov 23,23:05:34,Normal,No
+Nov 23 23:16:52 combo sshd(pam_unix)[30542]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,23:16:52,Auth Failure,No
+Nov 23 23:18:07 combo sshd(pam_unix)[30544]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,23:18:07,Auth Failure,No
+Nov 23 23:30:16 combo sshd(pam_unix)[30546]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,23:30:16,Auth Failure,No
+Nov 23 23:34:48 combo sshd(pam_unix)[30548]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,23:34:48,Auth Failure,No
+Nov 23 23:43:31 combo sshd(pam_unix)[30550]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 23,23:43:31,Auth Failure,No
+Nov 23 23:44:30 combo sshd(pam_unix)[24588]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,zummit.com,Nov 23,23:44:30,Auth Failure,No
+Nov 23 23:47:12 combo sshd(pam_unix)[19640]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 23,23:47:12,Auth Failure,No
+Nov 24 00:00:52 combo ftpd[24203]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:53 2005,,Nov 24,00:00:52,Normal,No
+Nov 24 00:08:54 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 24,00:08:54,Service Issue,Yes
+Nov 24 00:19:46 combo ftpd[30293]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 24,00:19:46,Normal,No
+Nov 24 00:29:27 combo sshd(pam_unix)[12524]: session opened for user test by (uid=509),,Nov 24,00:29:27,Normal,No
+Nov 24 00:32:52 combo su(pam_unix)[32608]: session opened for user news by (uid=0),,Nov 24,00:32:52,Normal,No
+Nov 24 00:32:54 combo ftpd[26464]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 24,00:32:54,Normal,No
+Nov 24 00:35:07 combo sshd(pam_unix)[19091]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 24,00:35:07,Auth Failure,No
+Nov 24 00:49:29 combo ftpd[14113]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 24,00:49:29,Normal,No
+Nov 24 01:04:24 combo ftpd[23937]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Nov 24,01:04:24,Normal,No
+Nov 24 01:04:37 combo sshd(pam_unix)[13321]: check pass; user unknown,,Nov 24,01:04:37,Normal,No
+Nov 24 01:09:47 combo sshd(pam_unix)[28858]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 24,01:09:47,Auth Failure,No
+Nov 24 01:10:56 combo su(pam_unix)[32237]: session closed for user cyrus,,Nov 24,01:10:56,Normal,No
+Nov 24 01:13:21 combo su(pam_unix)[12098]: session opened for user cyrus by (uid=0),,Nov 24,01:13:21,Normal,No
+Nov 24 01:26:20 combo su(pam_unix)[4540]: session closed for user news,,Nov 24,01:26:20,Normal,No
+Nov 24 01:32:25 combo sshd(pam_unix)[30580]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 24,01:32:25,Auth Failure,No
+Nov 24 01:46:20 combo ftpd[24078]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 24,01:46:20,Normal,No
+Nov 24 01:49:41 combo sshd(pam_unix)[3489]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29  user=root,210.76.59.29,Nov 24,01:49:41,Auth Failure,No
+Nov 24 01:52:24 combo ftpd[23786]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 24,01:52:24,Normal,No
+Nov 24 01:52:46 combo ftpd[32050]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 24,01:52:46,Normal,No
+Nov 24 01:57:15 combo sshd(pam_unix)[4065]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root,68.143.156.89.nw.nuvox.net,Nov 24,01:57:15,Auth Failure,No
+Nov 24 02:05:49 combo sshd(pam_unix)[16245]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 24,02:05:49,Auth Failure,No
+Nov 24 02:13:05 combo sshd(pam_unix)[31852]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root,82.77.200.128,Nov 24,02:13:05,Auth Failure,No
+Nov 24 02:27:08 combo sshd(pam_unix)[24581]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=zummit.com,zummit.com,Nov 24,02:27:08,Auth Failure,No
+Nov 24 02:28:34 combo sshd(pam_unix)[23407]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 24,02:28:34,Auth Failure,No
+Nov 24 02:29:11 combo sshd(pam_unix)[30662]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 24,02:29:11,Auth Failure,No
+"Nov 24 02:30:01 combo kernel[-]: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)",,Nov 24,02:30:01,Normal,No
+Nov 24 02:36:38 combo su(pam_unix)[1965]: session opened for user news by (uid=0),,Nov 24,02:36:38,Normal,No
+Nov 24 02:44:29 combo ftpd[23798]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 24,02:44:29,Normal,No
+Nov 24 02:48:17 combo ftpd[9771]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 24,02:48:17,Normal,No
+Nov 24 02:49:10 combo klogind[19280]: Kerberos authentication failed,,Nov 24,02:49:10,Normal,No
+Nov 24 03:00:34 combo ftpd[24532]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 24,03:00:34,Normal,No
+Nov 24 03:11:20 combo ftpd[23034]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 24,03:11:20,Normal,No
+Nov 24 03:24:00 combo rpc.statd[1618]: Version 1.0.6 Starting,,Nov 24,03:24:00,Normal,No
+Nov 24 03:31:32 combo ftpd[24202]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:53 2005,,Nov 24,03:31:32,Normal,No
+Nov 24 03:44:24 combo su(pam_unix)[19686]: session closed for user cyrus,,Nov 24,03:44:24,Normal,No
+Nov 24 03:50:31 combo sshd(pam_unix)[3378]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 24,03:50:31,Auth Failure,No
+Nov 24 03:51:12 combo su(pam_unix)[32608]: session closed for user news,,Nov 24,03:51:12,Normal,No
+Nov 24 03:58:28 combo sshd(pam_unix)[31203]: check pass; user unknown,,Nov 24,03:58:28,Normal,No
+Nov 24 04:08:09 combo sdpd[1696]: sdpd v1.5 started,,Nov 24,04:08:09,Normal,No
+Nov 24 04:10:18 combo ftpd[31468]: connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005,,Nov 24,04:10:18,Normal,No
+Nov 24 04:22:44 combo ftpd[21944]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 24,04:22:44,Normal,No
+Nov 24 04:26:07 combo ftpd[17890]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 24,04:26:07,Normal,No
+Nov 24 04:34:53 combo sshd(pam_unix)[15490]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 24,04:34:53,Auth Failure,No
+Nov 24 04:42:21 combo su(pam_unix)[14692]: session opened for user news by (uid=0),,Nov 24,04:42:21,Normal,No
+Nov 24 04:46:29 combo sshd(pam_unix)[19636]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 24,04:46:29,Auth Failure,No
+Nov 24 05:01:06 combo ftpd[24369]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:55 2005,,Nov 24,05:01:06,Normal,No
+Nov 24 05:11:19 combo ftpd[23036]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 24,05:11:19,Normal,No
+Nov 24 05:11:43 combo sshd(pam_unix)[19438]: session opened for user test by (uid=509),,Nov 24,05:11:43,Normal,No
+Nov 24 05:20:02 combo sshd(pam_unix)[12519]: session closed for user test,,Nov 24,05:20:02,Normal,No
+Nov 24 05:26:00 combo ftpd[21959]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 24,05:26:00,Normal,No
+Nov 24 05:37:55 combo sshd(pam_unix)[15477]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 24,05:37:55,Auth Failure,No
+Nov 24 05:52:18 combo sshd(pam_unix)[13317]: check pass; user unknown,,Nov 24,05:52:18,Normal,No
+Nov 24 06:02:30 combo sshd(pam_unix)[24139]: check pass; user unknown,,Nov 24,06:02:30,Normal,No
+Nov 24 06:13:56 combo su(pam_unix)[31791]: session closed for user cyrus,,Nov 24,06:13:56,Normal,No
+Nov 24 06:17:00 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 24,06:17:00,Service Issue,Yes
+Nov 24 06:23:11 combo su(pam_unix)[32164]: session opened for user news by (uid=0),,Nov 24,06:23:11,Normal,No
+Nov 24 06:29:20 combo su(pam_unix)[32164]: session closed for user news,,Nov 24,06:29:20,Normal,No
+Nov 24 06:41:48 combo su(pam_unix)[2192]: session opened for user cyrus by (uid=0),,Nov 24,06:41:48,Normal,No
+Nov 24 06:46:40 combo sshd(pam_unix)[16159]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.9.58.217  user=root,211.9.58.217,Nov 24,06:46:40,Auth Failure,No
+Nov 24 06:55:28 combo sshd(pam_unix)[23406]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 24,06:55:28,Auth Failure,No
+Nov 24 07:04:06 combo sshd(pam_unix)[18975]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 24,07:04:06,Auth Failure,No
+Nov 24 07:18:30 combo sshd(pam_unix)[20964]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 24,07:18:30,Auth Failure,No
+Nov 24 07:20:49 combo ftpd[25030]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 24,07:20:49,Normal,No
+Nov 18 19:36:34 combo ftpd[15551]: connection from 208.62.55.75 () at Wed Jun 29 10:48:06 2005,,Nov 18,19:36:34,Normal,No
+Nov 18 19:47:23 combo sshd(pam_unix)[18545]: check pass; user unknown,,Nov 18,19:47:23,Normal,No
+Nov 18 19:49:53 combo su(pam_unix)[363]: session closed for user cyrus,,Nov 18,19:49:53,Normal,No
+Nov 18 20:00:05 combo ftpd[15564]: connection from 208.62.55.75 () at Wed Jun 29 10:48:21 2005,,Nov 18,20:00:05,Normal,No
+Nov 18 20:03:27 combo sshd(pam_unix)[12629]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 18,20:03:27,Auth Failure,No
+Nov 18 20:05:56 combo sshd(pam_unix)[11513]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root,61.53.154.93,Nov 18,20:05:56,Auth Failure,No
+Nov 18 20:13:12 combo ftpd[32053]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 18,20:13:12,Normal,No
+Nov 18 20:17:24 combo sshd(pam_unix)[12681]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Nov 18,20:17:24,Auth Failure,No
+Nov 18 20:22:17 combo ftpd[17881]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 18,20:22:17,Normal,No
+Nov 18 20:31:46 combo ftpd[17878]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 18,20:31:46,Normal,No
+Nov 18 20:42:52 combo ftpd[17873]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 18,20:42:52,Normal,No
+Nov 18 20:56:27 combo ftpd[17885]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 18,20:56:27,Normal,No
+Nov 18 21:10:35 combo ftpd[17884]: connection from 210.245.165.136 () at Wed Jun 22 13:16:31 2005,,Nov 18,21:10:35,Normal,No
+Nov 18 21:21:29 combo su(pam_unix)[945]: session opened for user cyrus by (uid=0),,Nov 18,21:21:29,Normal,No
+Nov 18 21:28:29 combo sshd(pam_unix)[1335]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,211.137.205.253,Nov 18,21:28:29,Auth Failure,No
+Nov 18 21:33:59 combo ftpd[25033]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 18,21:33:59,Normal,No
+Nov 18 21:38:26 combo su(pam_unix)[4170]: session closed for user cyrus,,Nov 18,21:38:26,Normal,No
+Nov 18 21:52:41 combo ftpd[14106]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 18,21:52:41,Normal,No
+Nov 18 22:05:38 combo cups[-]: cupsd shutdown succeeded,,Nov 18,22:05:38,Normal,No
+Nov 18 22:06:12 combo ftpd[23790]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 18,22:06:12,Normal,No
+Nov 18 22:18:13 combo ftpd[9759]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 18,22:18:13,Normal,No
+Nov 18 22:32:59 combo su(pam_unix)[26938]: session opened for user cyrus by (uid=0),,Nov 18,22:32:59,Normal,No
+Nov 18 22:46:04 combo su(pam_unix)[26938]: session closed for user cyrus,,Nov 18,22:46:04,Normal,No
+Nov 18 22:50:35 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 18,22:50:35,Service Issue,Yes
+Nov 18 22:59:53 combo su(pam_unix)[27311]: session opened for user news by (uid=0),,Nov 18,22:59:53,Normal,No
+Nov 18 23:07:36 combo su(pam_unix)[27311]: session closed for user news,,Nov 18,23:07:36,Normal,No
+Nov 18 23:08:41 combo udev[12778]: creating device node '/udev/vcsa2',,Nov 18,23:08:41,Normal,No
+Nov 18 23:10:47 combo udev[12786]: removing device node '/udev/vcs2',,Nov 18,23:10:47,Normal,No
+Nov 18 23:13:32 combo udev[12790]: removing device node '/udev/vcsa2',,Nov 18,23:13:32,Normal,No
+Nov 18 23:25:46 combo udev[12795]: creating device node '/udev/vcs2',,Nov 18,23:25:46,Normal,No
+Nov 18 23:37:24 combo udev[12798]: creating device node '/udev/vcsa2',,Nov 18,23:37:24,Normal,No
+Nov 18 23:45:38 combo ftpd[23033]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 18,23:45:38,Normal,No
+Nov 18 23:58:03 combo ftpd[25038]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005,,Nov 18,23:58:03,Normal,No
+Nov 19 00:12:31 combo ftpd[31985]: connection from 218.38.58.3 () at Wed Jul 27 10:59:53 2005,,Nov 19,00:12:31,Normal,No
+Nov 19 00:16:01 combo ftpd[17892]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Nov 19,00:16:01,Normal,No
+Nov 19 00:28:32 combo ftpd[30293]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 19,00:28:32,Normal,No
+Nov 19 00:38:53 combo sshd(pam_unix)[28884]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 19,00:38:53,Auth Failure,No
+Nov 19 00:43:48 combo su(pam_unix)[26938]: session closed for user cyrus,,Nov 19,00:43:48,Normal,No
+Nov 19 00:50:01 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,00:50:01,Service Issue,Yes
+Nov 19 00:57:21 combo su(pam_unix)[27311]: session opened for user news by (uid=0),,Nov 19,00:57:21,Normal,No
+Nov 19 01:09:03 combo su(pam_unix)[27311]: session closed for user news,,Nov 19,01:09:03,Normal,No
+Nov 19 01:18:53 combo ftpd[28568]: connection from 218.69.108.57 () at Fri Jun 24 18:55:11 2005,,Nov 19,01:18:53,Normal,No
+Nov 19 01:22:36 combo ftpd[24203]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:53 2005,,Nov 19,01:22:36,Normal,No
+Nov 19 01:23:14 combo ftpd[28689]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 19,01:23:14,Normal,No
+Nov 19 01:38:06 combo sshd(pam_unix)[23669]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,061092085098.ctinets.com,Nov 19,01:38:06,Auth Failure,No
+Nov 19 01:44:54 combo sshd(pam_unix)[15490]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 19,01:44:54,Auth Failure,No
+Nov 19 01:58:03 combo ftpd[9769]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,01:58:03,Normal,No
+Nov 19 02:11:18 combo sshd(pam_unix)[14277]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Nov 19,02:11:18,Auth Failure,No
+Nov 19 02:24:08 combo ftpd[6586]: connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005,,Nov 19,02:24:08,Normal,No
+Nov 19 02:37:46 combo sshd(pam_unix)[20893]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 19,02:37:46,Auth Failure,No
+Nov 19 02:46:14 combo sshd(pam_unix)[15479]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Nov 19,02:46:14,Auth Failure,No
+Nov 19 02:54:49 combo sshd(pam_unix)[30635]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,02:54:49,Auth Failure,No
+Nov 19 02:56:41 combo sshd(pam_unix)[23674]: check pass; user unknown,,Nov 19,02:56:41,Normal,No
+Nov 19 03:06:16 combo ftpd[23778]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 19,03:06:16,Normal,No
+Nov 19 03:17:47 combo sshd(pam_unix)[19103]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 19,03:17:47,Auth Failure,No
+Nov 19 03:29:06 combo ftpd[9775]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,03:29:06,Normal,No
+Nov 19 03:32:09 combo su(pam_unix)[16663]: session closed for user cyrus,,Nov 19,03:32:09,Normal,No
+Nov 19 03:45:32 combo kernel[-]: PID hash table entries: 512 (order 9: 4096 bytes),,Nov 19,03:45:32,Normal,No
+Nov 19 03:47:39 combo klogind[19279]: Kerberos authentication failed,,Nov 19,03:47:39,Normal,No
+Nov 19 03:51:17 combo ftpd[24481]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 19,03:51:17,Normal,No
+Nov 19 03:58:34 combo sshd(pam_unix)[11521]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root,61.53.154.93,Nov 19,03:58:34,Auth Failure,No
+Nov 19 04:11:55 combo ftpd[28691]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 19,04:11:55,Normal,No
+Nov 19 04:18:07 combo ftpd[9776]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 19,04:18:07,Normal,No
+Nov 19 04:25:27 combo ftpd[32063]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 19,04:25:27,Normal,No
+Nov 19 04:28:13 combo ftpd[12278]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 19,04:28:13,Normal,No
+Nov 19 04:39:18 combo ftpd[770]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 19,04:39:18,Normal,No
+Nov 19 04:53:35 combo sshd(pam_unix)[17129]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,ip-216-69-169-168.ip.secureserver.net,Nov 19,04:53:35,Auth Failure,No
+Nov 19 04:59:58 combo sshd(pam_unix)[3306]: check pass; user unknown,,Nov 19,04:59:58,Normal,No
+Nov 19 05:03:44 combo ftpd[23566]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 19,05:03:44,Normal,No
+Nov 19 05:08:39 combo ftpd[23151]: connection from 211.167.68.59 () at Sat Jul  9 12:16:51 2005,,Nov 19,05:08:39,Normal,No
+Nov 19 05:14:01 combo kernel[-]: 126MB LOWMEM available.,,Nov 19,05:14:01,Normal,No
+Nov 19 05:25:06 combo ftpd[24531]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 19,05:25:06,Normal,No
+Nov 19 05:31:37 combo cups[-]: cupsd shutdown succeeded,,Nov 19,05:31:37,Normal,No
+Nov 19 05:37:35 combo sshd(pam_unix)[30642]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,05:37:35,Auth Failure,No
+Nov 19 05:47:18 combo sshd(pam_unix)[12645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 19,05:47:18,Auth Failure,No
+Nov 19 05:57:28 combo sshd(pam_unix)[16227]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 19,05:57:28,Auth Failure,No
+Nov 19 06:10:38 combo ftpd[15917]: connection from 210.223.97.117 () at Wed Jun 29 14:44:35 2005,,Nov 19,06:10:38,Normal,No
+Nov 19 06:17:57 combo ftpd[32325]: connection from 211.167.68.59 () at Sat Jun 25 19:25:30 2005,,Nov 19,06:17:57,Normal,No
+"Nov 19 06:22:19 combo kernel[-]: There is already a security framework initialized, register_security failed.",,Nov 19,06:22:19,Normal,No
+Nov 19 06:26:30 combo ftpd[17685]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 19,06:26:30,Normal,No
+Nov 19 06:37:23 combo sshd(pam_unix)[23546]: session opened for user test by (uid=509),,Nov 19,06:37:23,Normal,No
+Nov 19 06:50:03 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,06:50:03,Service Issue,Yes
+Nov 19 06:56:35 combo sshd(pam_unix)[12645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 19,06:56:35,Auth Failure,No
+Nov 19 07:04:53 combo sshd(pam_unix)[12755]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.115.206.155,211.115.206.155,Nov 19,07:04:53,Auth Failure,No
+Nov 19 07:05:37 combo ftpd[23589]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:14:36 2005,,Nov 19,07:05:37,Normal,No
+Nov 19 07:13:11 combo sshd(pam_unix)[16224]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 19,07:13:11,Auth Failure,No
+Nov 19 07:23:12 combo ftpd[766]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 19,07:23:12,Normal,No
+Nov 19 07:29:38 combo ftpd[776]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 19,07:29:38,Normal,No
+Nov 19 07:29:56 combo ftpd[29736]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Nov 19,07:29:56,Normal,No
+Nov 19 07:39:46 combo ftpd[25638]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 19,07:39:46,Normal,No
+Nov 19 07:51:37 combo ftpd[23788]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 19,07:51:37,Normal,No
+Nov 19 07:52:33 combo sshd(pam_unix)[23397]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 19,07:52:33,Auth Failure,No
+Nov 19 08:04:25 combo sshd(pam_unix)[23544]: session opened for user test by (uid=509),,Nov 19,08:04:25,Normal,No
+Nov 19 08:13:43 combo cups[-]: cupsd startup succeeded,,Nov 19,08:13:43,Normal,No
+Nov 19 08:26:38 combo ftpd[14113]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 19,08:26:38,Normal,No
+Nov 19 08:36:16 combo sshd(pam_unix)[10045]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,65.166.159.14,Nov 19,08:36:16,Auth Failure,No
+Nov 19 08:44:40 combo sshd(pam_unix)[30644]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,08:44:40,Auth Failure,No
+Nov 19 08:45:58 combo ftpd[21951]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 19,08:45:58,Normal,No
+Nov 19 08:46:58 combo ftpd[5021]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Nov 19,08:46:58,Normal,No
+Nov 19 08:48:34 combo sshd(pam_unix)[12525]: session opened for user test by (uid=509),,Nov 19,08:48:34,Normal,No
+Dec 8 19:32:20 combo su(pam_unix)[17778]: session closed for user news,,Dec 08,19:32:20,Normal,No
+Dec 8 19:46:43 combo sshd(pam_unix)[28844]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Dec 08,19:46:43,Auth Failure,No
+Dec 8 19:58:34 combo klogind[19272]: Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,,Dec 08,19:58:34,Normal,No
+Dec 8 20:03:32 combo ftpd[23146]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Dec 08,20:03:32,Normal,No
+Dec 8 20:08:41 combo sshd(pam_unix)[30680]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 08,20:08:41,Auth Failure,No
+Dec 8 20:15:07 combo logrotate[-]: ALERT exited abnormally with [1],,Dec 08,20:15:07,Service Issue,Yes
+Dec 8 20:27:51 combo sshd(pam_unix)[15490]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Dec 08,20:27:51,Auth Failure,No
+Dec 8 20:30:09 combo ftpd[24477]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Dec 08,20:30:09,Normal,No
+Dec 8 20:36:15 combo gdm(pam_unix)[2803]: authentication failure; logname= uid=0 euid=0 tty=:0 ruser= rhost=,,Dec 08,20:36:15,Normal,No
+Dec 8 20:44:16 combo ftpd[30756]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005,,Dec 08,20:44:16,Normal,No
+Dec 8 20:51:18 combo ftpd[17878]: connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005,,Dec 08,20:51:18,Normal,No
+Dec 8 20:53:51 combo sshd(pam_unix)[10045]: check pass; user unknown,,Dec 08,20:53:51,Normal,No
+Dec 8 20:59:29 combo ftpd[17684]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Dec 08,20:59:29,Normal,No
+Dec 8 21:06:29 combo sshd(pam_unix)[19636]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 08,21:06:29,Auth Failure,No
+Dec 8 21:10:45 combo sshd(pam_unix)[30540]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 08,21:10:45,Auth Failure,No
+Dec 8 21:19:35 combo sshd(pam_unix)[16210]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Dec 08,21:19:35,Auth Failure,No
+Dec 8 21:32:32 combo sshd(pam_unix)[30562]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 08,21:32:32,Auth Failure,No
+Dec 8 21:32:54 combo ftpd[31274]: connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005,,Dec 08,21:32:54,Normal,No
+Dec 8 21:38:45 combo sshd(pam_unix)[7704]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.16.122.48  user=root,218.16.122.48,Dec 08,21:38:45,Auth Failure,No
+Dec 8 21:53:10 combo kernel[-]: You can enable it with acpi=force,,Dec 08,21:53:10,Normal,No
+Dec 8 22:05:32 combo klogind[19286]: Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code,,Dec 08,22:05:32,Normal,No
+Dec 8 22:12:52 combo sshd(pam_unix)[31207]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,adsl-70-242-75-179.dsl.ksc2mo.swbell.net,Dec 08,22:12:52,Auth Failure,No
+Dec 8 22:13:40 combo ftpd[31467]: connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005,,Dec 08,22:13:40,Normal,No
+Dec 8 22:23:04 combo ftpd[23567]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:38 2005,,Dec 08,22:23:04,Normal,No
+Dec 8 22:30:21 combo ftpd[9765]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Dec 08,22:30:21,Normal,No
+Dec 8 22:31:58 combo sshd(pam_unix)[19645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 08,22:31:58,Auth Failure,No
+Dec 8 22:34:53 combo sshd(pam_unix)[19637]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 08,22:34:53,Auth Failure,No
+Dec 8 22:39:47 combo su(pam_unix)[29758]: session closed for user cyrus,,Dec 08,22:39:47,Normal,No
+Dec 8 22:46:56 combo sshd(pam_unix)[31205]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net,adsl-70-242-75-179.dsl.ksc2mo.swbell.net,Dec 08,22:46:56,Auth Failure,No
+Dec 8 22:55:16 combo ftpd[21950]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Dec 08,22:55:16,Normal,No
+Dec 8 22:58:27 combo sshd(pam_unix)[6560]: check pass; user unknown,,Dec 08,22:58:27,Normal,No
+Dec 8 23:00:28 combo ftpd[23156]: connection from 211.167.68.59 () at Sat Jul  9 12:16:52 2005,,Dec 08,23:00:28,Normal,No
+Dec 8 23:11:35 combo sshd(pam_unix)[16244]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Dec 08,23:11:35,Auth Failure,No
+Dec 8 23:24:50 combo su(pam_unix)[8565]: session closed for user news,,Dec 08,23:24:50,Normal,No
+Dec 8 23:26:26 combo ftpd[13520]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Dec 08,23:26:26,Normal,No
+Dec 8 23:36:27 combo ftpd[13519]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Dec 08,23:36:27,Normal,No
+Dec 8 23:38:52 combo ftpd[13514]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Dec 08,23:38:52,Normal,No
+Dec 8 23:48:58 combo ftpd[14105]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Dec 08,23:48:58,Normal,No
+Dec 8 23:59:21 combo ftpd[14106]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Dec 08,23:59:21,Normal,No
+Dec 9 00:06:04 combo sshd(pam_unix)[19103]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 09,00:06:04,Auth Failure,No
+Dec 9 00:16:44 combo named[2306]: notify question section contains no SOA,,Dec 09,00:16:44,Normal,No
+Dec 9 00:23:26 combo sshd(pam_unix)[30634]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 09,00:23:26,Auth Failure,No
+Dec 9 00:31:43 combo sshd(pam_unix)[22112]: session closed for user test,,Dec 09,00:31:43,Normal,No
+Dec 9 00:34:42 combo sshd(pam_unix)[17124]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,ip-216-69-169-168.ip.secureserver.net,Dec 09,00:34:42,Auth Failure,No
+Dec 9 00:37:07 combo ftpd[15549]: connection from 208.62.55.75 () at Wed Jun 29 10:48:06 2005,,Dec 09,00:37:07,Normal,No
+Dec 9 00:38:32 combo sshd(pam_unix)[15385]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=85.44.47.166  user=root,85.44.47.166,Dec 09,00:38:32,Auth Failure,No
+Dec 9 00:53:11 combo ftpd[12279]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Dec 09,00:53:11,Normal,No
+Dec 9 00:53:15 combo su(pam_unix)[9355]: session opened for user cyrus by (uid=0),,Dec 09,00:53:15,Normal,No
+Dec 9 01:04:06 combo ftpd[22668]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Dec 09,01:04:06,Normal,No
+Dec 9 01:12:52 combo logrotate[-]: ALERT exited abnormally with [1],,Dec 09,01:12:52,Service Issue,Yes
+Dec 9 01:19:22 combo su(pam_unix)[11106]: session opened for user news by (uid=0),,Dec 09,01:19:22,Normal,No
+Dec 9 01:26:26 combo su(pam_unix)[11106]: session closed for user news,,Dec 09,01:26:26,Normal,No
+Dec 9 01:29:29 combo sshd(pam_unix)[11513]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root,61.53.154.93,Dec 09,01:29:29,Auth Failure,No
+Dec 9 01:42:50 combo su(pam_unix)[3676]: session closed for user news,,Dec 09,01:42:50,Normal,No
+Dec 9 01:52:00 combo ftpd[24367]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Dec 09,01:52:00,Normal,No
+Dec 9 01:58:41 combo ftpd[23791]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Dec 09,01:58:41,Normal,No
+Dec 9 02:05:24 combo klogind[19283]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Dec 09,02:05:24,Normal,No
+Dec 9 02:13:48 combo ftpd[28706]: connection from 172.181.208.156 () at Tue Jul 26 05:47:51 2005,,Dec 09,02:13:48,Normal,No
+Dec 9 02:28:05 combo ftpd[24963]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Dec 09,02:28:05,Normal,No
+Dec 9 02:39:33 combo ftpd[30284]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 09,02:39:33,Normal,No
+Dec 9 02:40:52 combo sshd(pam_unix)[22277]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root,195.129.24.210,Dec 09,02:40:52,Auth Failure,No
+Dec 9 02:52:51 combo sshd(pam_unix)[30618]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 09,02:52:51,Auth Failure,No
+Dec 9 02:57:35 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Dec 09,02:57:35,Normal,No
+Dec 9 02:59:16 combo ftpd[5018]: connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005,,Dec 09,02:59:16,Normal,No
+Dec 9 03:10:41 combo ftpd[15546]: connection from 208.62.55.75 () at Wed Jun 29 10:48:01 2005,,Dec 09,03:10:41,Normal,No
+Dec 9 03:24:26 combo su(pam_unix)[13238]: session opened for user cyrus by (uid=0),,Dec 09,03:24:26,Normal,No
+Dec 9 03:25:45 combo sshd(pam_unix)[22106]: session closed for user test,,Dec 09,03:25:45,Normal,No
+Dec 9 03:39:02 combo sshd(pam_unix)[12675]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Dec 09,03:39:02,Auth Failure,No
+Dec 9 03:47:58 combo sshd(pam_unix)[19088]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Dec 09,03:47:58,Auth Failure,No
+Dec 9 03:59:18 combo ftpd[17667]: connection from 212.65.68.82 () at Sat Jul 16 08:14:04 2005,,Dec 09,03:59:18,Normal,No
+Dec 9 04:08:01 combo ftpd[30294]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Dec 09,04:08:01,Normal,No
+Dec 9 04:13:41 combo sshd(pam_unix)[15477]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=csnsu.nsuok.edu  user=root,csnsu.nsuok.edu,Dec 09,04:13:41,Auth Failure,No
+Dec 9 04:27:54 combo ftpd[22656]: connection from 211.107.232.1 () at Sun Jul 24 13:46:32 2005,,Dec 09,04:27:54,Normal,No
+Dec 9 04:35:33 combo ftpd[24480]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Dec 09,04:35:33,Normal,No
+Dec 9 04:43:40 combo sshd(pam_unix)[19435]: session closed for user test,,Dec 09,04:43:40,Normal,No
+Dec 9 04:47:58 combo ftpd[23142]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Dec 09,04:47:58,Normal,No
+Dec 9 04:59:24 combo sshd(pam_unix)[28856]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Dec 09,04:59:24,Auth Failure,No
+Dec 9 05:10:41 combo sshd(pam_unix)[28858]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Dec 09,05:10:41,Auth Failure,No
+Dec 9 05:12:20 combo sshd(pam_unix)[28860]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Dec 09,05:12:20,Auth Failure,No
+Dec 9 05:20:53 combo ftpd[23797]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Dec 09,05:20:53,Normal,No
+Dec 9 05:23:01 combo ftpd[24088]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:19 2005,,Dec 09,05:23:01,Normal,No
+Dec 9 05:34:26 combo sshd(pam_unix)[12673]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Dec 09,05:34:26,Auth Failure,No
+Dec 9 05:42:07 combo sshd(pam_unix)[23544]: session closed for user test,,Dec 09,05:42:07,Normal,No
+Dec 9 05:52:50 combo ftpd[15542]: connection from 208.62.55.75 () at Wed Jun 29 10:48:01 2005,,Dec 09,05:52:50,Normal,No
+Dec 9 06:07:21 combo ftpd[23787]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Dec 09,06:07:21,Normal,No
+Dec 9 06:14:28 combo su(pam_unix)[17407]: session opened for user cyrus by (uid=0),,Dec 09,06:14:28,Normal,No
+Dec 9 06:23:18 combo klogind[19284]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Dec 09,06:23:18,Normal,No
+Dec 9 06:27:16 combo su(pam_unix)[11756]: session closed for user news,,Dec 09,06:27:16,Normal,No
+Dec 9 06:36:17 combo ftpd[29728]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Dec 09,06:36:17,Normal,No
+Dec 9 06:43:27 combo ftpd[13140]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Dec 09,06:43:27,Normal,No
+Dec 9 06:57:33 combo su(pam_unix)[7031]: session closed for user cyrus,,Dec 09,06:57:33,Normal,No
+Dec 9 07:12:19 combo ftpd[13519]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Dec 09,07:12:19,Normal,No
+Dec 9 07:19:05 combo sshd(pam_unix)[21689]: session closed for user test,,Dec 09,07:19:05,Normal,No
+Dec 9 07:28:37 combo ftpd[25047]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005,,Dec 09,07:28:37,Normal,No
+Dec 9 07:34:20 combo sshd(pam_unix)[14279]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=217.60.212.66  user=guest,217.60.212.66,Dec 09,07:34:20,Auth Failure,No
+Dec 9 07:38:48 combo ftpd[23933]: connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005,,Dec 09,07:38:48,Normal,No
+Dec 9 07:42:25 combo ftpd[28693]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Dec 09,07:42:25,Normal,No
+Dec 9 07:55:27 combo sshd(pam_unix)[30618]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Dec 09,07:55:27,Auth Failure,No
+Dec 9 08:03:22 combo ftpd[23576]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Dec 09,08:03:22,Normal,No
+Dec 9 08:18:09 combo klogind[19284]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Dec 09,08:18:09,Normal,No
+Nov 19 19:27:45 combo ftpd[17678]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 19,19:27:45,Normal,No
+Nov 19 19:42:14 combo ftpd[29731]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005,,Nov 19,19:42:14,Normal,No
+Nov 19 19:56:55 combo ftpd[24532]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 19,19:56:55,Normal,No
+Nov 19 20:04:31 combo ftpd[23206]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Nov 19,20:04:31,Normal,No
+Nov 19 20:13:58 combo sshd(pam_unix)[30614]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 19,20:13:58,Auth Failure,No
+Nov 19 20:20:58 combo ftpd[13254]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 19,20:20:58,Normal,No
+Nov 19 20:26:49 combo kernel[-]: Initializing Cryptographic API,,Nov 19,20:26:49,Normal,No
+Nov 19 20:27:31 combo ftpd[24514]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 19,20:27:31,Normal,No
+Nov 19 20:30:01 combo ftpd[29721]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 19,20:30:01,Normal,No
+Nov 19 20:32:21 combo named[2306]: notify question section contains no SOA,,Nov 19,20:32:21,Normal,No
+Nov 19 20:42:36 combo sshd(pam_unix)[16230]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 19,20:42:36,Auth Failure,No
+Nov 19 20:50:12 combo ftpd[28699]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 19,20:50:12,Normal,No
+Nov 19 20:59:59 combo ftpd[12288]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 19,20:59:59,Normal,No
+Nov 19 21:00:12 combo ftpd[25047]: connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005,,Nov 19,21:00:12,Normal,No
+Nov 19 21:12:56 combo ftpd[23794]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 19,21:12:56,Normal,No
+Nov 19 21:18:14 combo sshd(pam_unix)[5587]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=193.110.106.11  user=root,193.110.106.11,Nov 19,21:18:14,Auth Failure,No
+Nov 19 21:29:20 combo sshd(pam_unix)[31850]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root,82.77.200.128,Nov 19,21:29:20,Auth Failure,No
+Nov 19 21:39:19 combo ftpd[24200]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:48 2005,,Nov 19,21:39:19,Normal,No
+Nov 19 21:48:12 combo ftpd[23047]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 19,21:48:12,Normal,No
+Nov 19 21:48:24 combo su(pam_unix)[6486]: session closed for user cyrus,,Nov 19,21:48:24,Normal,No
+Nov 19 22:02:28 combo sshd(pam_unix)[28858]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 19,22:02:28,Auth Failure,No
+"Nov 19 22:03:33 combo ftpd[16781]: ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)",,Nov 19,22:03:33,Normal,No
+Nov 19 22:06:12 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 19,22:06:12,Service Issue,Yes
+Nov 19 22:13:19 combo su(pam_unix)[28416]: session opened for user news by (uid=0),,Nov 19,22:13:19,Normal,No
+Nov 19 22:24:02 combo su(pam_unix)[28416]: session closed for user news,,Nov 19,22:24:02,Normal,No
+Nov 19 22:33:06 combo ftpd[32069]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 19,22:33:06,Normal,No
+Nov 19 22:40:35 combo ftpd[23221]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Nov 19,22:40:35,Normal,No
+Nov 19 22:43:44 combo ftpd[17683]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 19,22:43:44,Normal,No
+Nov 19 22:49:54 combo sshd(pam_unix)[24137]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=d211-116-254-214.rev.krline.net,d211-116-254-214.rev.krline.net,Nov 19,22:49:54,Auth Failure,No
+Nov 19 23:02:17 combo ftpd[25228]: connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005,,Nov 19,23:02:17,Normal,No
+Nov 19 23:12:51 combo ftpd[29507]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 19,23:12:51,Normal,No
+Nov 19 23:22:28 combo sshd(pam_unix)[23416]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4,218.188.2.4,Nov 19,23:22:28,Auth Failure,No
+Nov 19 23:22:53 combo su(pam_unix)[27311]: session closed for user news,,Nov 19,23:22:53,Normal,No
+Nov 19 23:29:46 combo sshd(pam_unix)[23664]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com,061092085098.ctinets.com,Nov 19,23:29:46,Auth Failure,No
+Nov 19 23:32:46 combo sshd(pam_unix)[12645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=c51471f2c.cable.wanadoo.nl  user=root,c51471f2c.cable.wanadoo.nl,Nov 19,23:32:46,Auth Failure,No
+Nov 19 23:38:27 combo su(pam_unix)[19593]: session opened for user news by (uid=0),,Nov 19,23:38:27,Normal,No
+Nov 19 23:52:58 combo ftpd[17687]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 19,23:52:58,Normal,No
+Nov 20 00:06:46 combo ftpd[29722]: connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:24 2005,,Nov 20,00:06:46,Normal,No
+Nov 20 00:20:50 combo udev[12798]: creating device node '/udev/vcsa2',,Nov 20,00:20:50,Normal,No
+Nov 20 00:29:09 combo logrotate[-]: ALERT exited abnormally with [1],,Nov 20,00:29:09,Service Issue,Yes
+Nov 20 00:34:03 combo sshd(pam_unix)[30558]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,00:34:03,Auth Failure,No
+Nov 20 00:39:02 combo ftpd[29507]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 20,00:39:02,Normal,No
+Nov 20 00:43:26 combo su(pam_unix)[4170]: session opened for user cyrus by (uid=0),,Nov 20,00:43:26,Normal,No
+Nov 20 00:49:41 combo ftpd[6600]: connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,,Nov 20,00:49:41,Normal,No
+Nov 20 01:00:09 combo ftpd[24366]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Nov 20,01:00:09,Normal,No
+Nov 20 01:11:59 combo sshd(pam_unix)[8117]: session closed for user test,,Nov 20,01:11:59,Normal,No
+Nov 20 01:12:07 combo sshd(pam_unix)[22189]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=203.251.225.101  user=root,203.251.225.101,Nov 20,01:12:07,Auth Failure,No
+Nov 20 01:18:56 combo ftpd[24201]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005,,Nov 20,01:18:56,Normal,No
+Nov 20 01:21:11 combo ftpd[24084]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 20,01:21:11,Normal,No
+Nov 20 01:35:57 combo ftpd[9775]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 20,01:35:57,Normal,No
+Nov 20 01:47:14 combo su(pam_unix)[28416]: session opened for user news by (uid=0),,Nov 20,01:47:14,Normal,No
+Nov 20 01:47:26 combo ftpd[23560]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 20,01:47:26,Normal,No
+Nov 20 02:02:08 combo ftpd[15555]: connection from 208.62.55.75 () at Wed Jun 29 10:48:10 2005,,Nov 20,02:02:08,Normal,No
+Nov 20 02:09:54 combo sshd(pam_unix)[10051]: check pass; user unknown,,Nov 20,02:09:54,Normal,No
+Nov 20 02:11:09 combo su(pam_unix)[19593]: session closed for user news,,Nov 20,02:11:09,Normal,No
+Nov 20 02:19:26 combo sshd(pam_unix)[20963]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 20,02:19:26,Auth Failure,No
+Nov 20 02:24:39 combo sshd(pam_unix)[20969]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 20,02:24:39,Auth Failure,No
+Nov 20 02:38:07 combo sshd(pam_unix)[20968]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 20,02:38:07,Auth Failure,No
+Nov 20 02:41:02 combo sshd(pam_unix)[20964]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=212.0.132.20  user=test,212.0.132.20,Nov 20,02:41:02,Auth Failure,No
+Nov 20 02:54:35 combo ftpd[6598]: connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,,Nov 20,02:54:35,Normal,No
+Nov 20 03:07:32 combo ftpd[17675]: connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005,,Nov 20,03:07:32,Normal,No
+Nov 20 03:20:21 combo ftpd[32056]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 20,03:20:21,Normal,No
+Nov 20 03:32:14 combo named[2306]: notify question section contains no SOA,,Nov 20,03:32:14,Normal,No
+Nov 20 03:45:27 combo ftpd[21940]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 20,03:45:27,Normal,No
+Nov 20 03:53:35 combo sshd(pam_unix)[28980]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw,211-76-104-65.ebix.net.tw,Nov 20,03:53:35,Auth Failure,No
+Nov 20 04:04:22 combo ftpd[21945]: connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005,,Nov 20,04:04:22,Normal,No
+Nov 20 04:16:35 combo ftpd[16787]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 20,04:16:35,Normal,No
+Nov 20 04:19:53 combo sshd(pam_unix)[30572]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,04:19:53,Auth Failure,No
+Nov 20 04:30:37 combo ftpd[30289]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,04:30:37,Normal,No
+Nov 20 04:30:41 combo ftpd[2826]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,04:30:41,Normal,No
+Nov 20 04:34:38 combo sshd(pam_unix)[30624]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,04:34:38,Auth Failure,No
+Nov 20 04:42:28 combo ftpd[16775]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 20,04:42:28,Normal,No
+Nov 20 04:44:36 combo ftpd[15322]: connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005,,Nov 20,04:44:36,Normal,No
+Nov 20 04:45:06 combo ftpd[24210]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:59 2005,,Nov 20,04:45:06,Normal,No
+Nov 20 04:47:46 combo sshd(pam_unix)[15702]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net  user=root,h64-187-1-131.gtconnect.net,Nov 20,04:47:46,Auth Failure,No
+Nov 20 04:51:14 combo sshd(pam_unix)[24578]: check pass; user unknown,,Nov 20,04:51:14,Normal,No
+Nov 20 04:53:41 combo su(pam_unix)[10735]: session opened for user cyrus by (uid=0),,Nov 20,04:53:41,Normal,No
+Nov 20 05:00:42 combo sshd(pam_unix)[30614]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,05:00:42,Auth Failure,No
+Nov 20 05:08:56 combo ftpd[2841]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:08:56,Normal,No
+Nov 20 05:11:51 combo sshd(pam_unix)[30650]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 20,05:11:51,Auth Failure,No
+Nov 20 05:25:22 combo ftpd[2841]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:25:22,Normal,No
+Nov 20 05:29:42 combo ftpd[2840]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:29:42,Normal,No
+Nov 20 05:34:22 combo ftpd[2831]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:34:22,Normal,No
+Nov 20 05:38:40 combo ftpd[2829]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:38:40,Normal,No
+Nov 20 05:51:20 combo ftpd[2835]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 20,05:51:20,Normal,No
+Nov 20 06:01:09 combo ftpd[12287]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 20,06:01:09,Normal,No
+Nov 20 06:07:05 combo sshd(pam_unix)[1337]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.137.205.253  user=root,211.137.205.253,Nov 20,06:07:05,Auth Failure,No
+Nov 20 06:07:38 combo ftpd[22667]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Nov 20,06:07:38,Normal,No
+Nov 20 06:07:42 combo ftpd[13514]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 20,06:07:42,Normal,No
+Nov 20 06:13:50 combo sshd(pam_unix)[24579]: check pass; user unknown,,Nov 20,06:13:50,Normal,No
+Nov 20 06:26:55 combo ftpd[32054]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005,,Nov 20,06:26:55,Normal,No
+Nov 20 06:38:14 combo ftpd[25634]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 20,06:38:14,Normal,No
+Nov 20 06:51:00 combo ftpd[16781]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 20,06:51:00,Normal,No
+Nov 20 06:57:58 combo su(pam_unix)[8195]: session opened for user cyrus by (uid=0),,Nov 20,06:57:58,Normal,No
+Nov 20 07:08:45 combo ftpd[30277]: connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005,,Nov 20,07:08:45,Normal,No
+Nov 20 07:09:17 combo ftpd[24078]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 20,07:09:17,Normal,No
+Nov 20 07:13:56 combo sshd(pam_unix)[3386]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 20,07:13:56,Auth Failure,No
+Nov 20 07:17:55 combo ftpd[31277]: User unknown timed out after 900 seconds at Sat Jun 18 02:23:10 2005,,Nov 20,07:17:55,Normal,No
+Nov 20 07:19:41 combo ftpd[24474]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 20,07:19:41,Normal,No
+Nov 20 07:28:00 combo ftpd[23789]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 20,07:28:00,Normal,No
+Nov 21 19:34:38 combo sshd(pam_unix)[4052]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root,68.143.156.89.nw.nuvox.net,Nov 21,19:34:38,Auth Failure,No
+Nov 21 19:46:04 combo sshd(pam_unix)[30546]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 21,19:46:04,Auth Failure,No
+Nov 21 19:50:55 combo ftpd[16788]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 21,19:50:55,Normal,No
+Nov 21 20:01:44 combo sshd(pam_unix)[16245]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root,n219076184117.netvigator.com,Nov 21,20:01:44,Auth Failure,No
+Nov 21 20:14:46 combo ftpd[14110]: connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005,,Nov 21,20:14:46,Normal,No
+Nov 21 20:27:17 combo kernel[-]: You can enable it with acpi=force,,Nov 21,20:27:17,Normal,No
+Nov 21 20:41:47 combo sshd(pam_unix)[23533]: session closed for user test,,Nov 21,20:41:47,Normal,No
+Nov 21 20:48:25 combo sshd(pam_unix)[30598]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 21,20:48:25,Auth Failure,No
+Nov 21 20:58:35 combo sshd(pam_unix)[31206]: check pass; user unknown,,Nov 21,20:58:35,Normal,No
+Nov 21 21:00:29 combo sshd(pam_unix)[11725]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202-132-40-29.adsl.ttn.net  user=root,202-132-40-29.adsl.ttn.net,Nov 21,21:00:29,Auth Failure,No
+Nov 21 21:04:10 combo kernel[-]: Initializing Cryptographic API,,Nov 21,21:04:10,Normal,No
+Nov 21 21:04:24 combo sshd(pam_unix)[30737]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root,211.214.161.141,Nov 21,21:04:24,Auth Failure,No
+Nov 21 21:09:58 combo ftpd[23565]: connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005,,Nov 21,21:09:58,Normal,No
+Nov 21 21:14:33 combo ftpd[24368]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Nov 21,21:14:33,Normal,No
+Nov 21 21:28:55 combo ftpd[23210]: connection from 81.171.220.226 () at Sat Jul  9 12:59:44 2005,,Nov 21,21:28:55,Normal,No
+Nov 21 21:31:31 combo sshd(pam_unix)[20897]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 21,21:31:31,Auth Failure,No
+Nov 21 21:44:04 combo ftpd[23794]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 21,21:44:04,Normal,No
+Nov 21 21:57:31 combo ftpd[24362]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:49 2005,,Nov 21,21:57:31,Normal,No
+Nov 21 21:58:20 combo ftpd[24363]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:49 2005,,Nov 21,21:58:20,Normal,No
+Nov 21 22:09:52 combo ftpd[24364]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:49 2005,,Nov 21,22:09:52,Normal,No
+Nov 21 22:09:53 combo ftpd[24365]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:49 2005,,Nov 21,22:09:53,Normal,No
+Nov 21 22:22:15 combo ftpd[24366]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:54 2005,,Nov 21,22:22:15,Normal,No
+Nov 21 22:36:54 combo ftpd[28692]: connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005,,Nov 21,22:36:54,Normal,No
+Nov 21 22:40:06 combo ftpd[24195]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:43 2005,,Nov 21,22:40:06,Normal,No
+Nov 21 22:47:16 combo ftpd[23038]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 21,22:47:16,Normal,No
+Nov 21 22:57:29 combo ftpd[6596]: connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005,,Nov 21,22:57:29,Normal,No
+Nov 21 23:02:46 combo sshd(pam_unix)[30614]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 21,23:02:46,Auth Failure,No
+Nov 21 23:09:39 combo su(pam_unix)[10961]: session closed for user cyrus,,Nov 21,23:09:39,Normal,No
+Nov 21 23:23:21 combo su(pam_unix)[26353]: session closed for user news,,Nov 21,23:23:21,Normal,No
+Nov 21 23:35:13 combo ftpd[772]: connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005,,Nov 21,23:35:13,Normal,No
+Nov 21 23:49:47 combo ftpd[13516]: connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005,,Nov 21,23:49:47,Normal,No
+Nov 21 23:50:39 combo ftpd[24077]: connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:22 2005,,Nov 21,23:50:39,Normal,No
+Nov 21 23:58:25 combo ftpd[23028]: connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005,,Nov 21,23:58:25,Normal,No
+Nov 22 00:01:20 combo ftpd[8832]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,,Nov 22,00:01:20,Normal,No
+Nov 22 00:15:19 combo ftpd[24957]: connection from 206.47.209.10 () at Mon Jul 25 06:39:18 2005,,Nov 22,00:15:19,Normal,No
+Nov 22 00:18:36 combo ftpd[23778]: connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005,,Nov 22,00:18:36,Normal,No
+Nov 22 00:20:40 combo sshd(pam_unix)[30588]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,00:20:40,Auth Failure,No
+Nov 22 00:22:11 combo ftpd[12287]: connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005,,Nov 22,00:22:11,Normal,No
+Nov 22 00:32:32 combo sshd(pam_unix)[18981]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest,209.152.168.249,Nov 22,00:32:32,Auth Failure,No
+Nov 22 00:38:34 combo sshd(pam_unix)[23416]: check pass; user unknown,,Nov 22,00:38:34,Normal,No
+Nov 22 00:49:27 combo klogind[19282]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Nov 22,00:49:27,Normal,No
+Nov 22 00:52:37 combo ftpd[24201]: connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005,,Nov 22,00:52:37,Normal,No
+Nov 22 00:56:39 combo syslogd 1.4.1[-]: restart.,,Nov 22,00:56:39,Normal,No
+Nov 22 01:02:41 combo sshd(pam_unix)[12671]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root,62-192-102-94.dsl.easynet.nl,Nov 22,01:02:41,Auth Failure,No
+Nov 22 01:15:26 combo sshd(pam_unix)[17139]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net,ip-216-69-169-168.ip.secureserver.net,Nov 22,01:15:26,Auth Failure,No
+Nov 22 01:17:54 combo su(pam_unix)[26046]: session opened for user cyrus by (uid=0),,Nov 22,01:17:54,Normal,No
+Nov 22 01:24:39 combo named[2306]: notify question section contains no SOA,,Nov 22,01:24:39,Normal,No
+Nov 22 01:27:08 combo su(pam_unix)[2605]: session closed for user cyrus,,Nov 22,01:27:08,Normal,No
+Nov 22 01:35:12 combo ftpd[24528]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 22,01:35:12,Normal,No
+Nov 22 01:35:57 combo ftpd[31985]: connection from 218.38.58.3 () at Wed Jul 27 10:59:53 2005,,Nov 22,01:35:57,Normal,No
+Nov 22 01:42:50 combo ftpd[13154]: connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005,,Nov 22,01:42:50,Normal,No
+Nov 22 01:56:34 combo su(pam_unix)[10583]: session opened for user news by (uid=0),,Nov 22,01:56:34,Normal,No
+Nov 22 02:04:26 combo ftpd[25639]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,02:04:26,Normal,No
+Nov 22 02:16:42 combo ftpd[25640]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,02:16:42,Normal,No
+Nov 22 02:21:42 combo ftpd[25641]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,02:21:42,Normal,No
+Nov 22 02:23:39 combo ftpd[25643]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,02:23:39,Normal,No
+Nov 22 02:26:38 combo ftpd[25644]: connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005,,Nov 22,02:26:38,Normal,No
+Nov 22 02:32:32 combo sshd(pam_unix)[8114]: session closed for user test,,Nov 22,02:32:32,Normal,No
+Nov 22 02:39:48 combo sshd(pam_unix)[28991]: check pass; user unknown,,Nov 22,02:39:48,Normal,No
+Nov 22 02:42:23 combo sshd(pam_unix)[10049]: check pass; user unknown,,Nov 22,02:42:23,Normal,No
+Nov 22 02:48:43 combo login(pam_unix)[2421]: session closed for user root,,Nov 22,02:48:43,Normal,No
+Nov 22 02:55:29 combo klogind[19285]: Authentication failed from 163.27.187.39 (163.27.187.39): Software caused connection abort,,Nov 22,02:55:29,Normal,No
+Nov 22 02:57:05 combo sshd(pam_unix)[6554]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.229.150.228,210.229.150.228,Nov 22,02:57:05,Auth Failure,No
+Nov 22 02:59:27 combo su(pam_unix)[10961]: session opened for user cyrus by (uid=0),,Nov 22,02:59:27,Normal,No
+Nov 22 03:13:28 combo ftpd[29508]: connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:00 2005,,Nov 22,03:13:28,Normal,No
+Nov 22 03:14:32 combo ftpd[9771]: connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005,,Nov 22,03:14:32,Normal,No
+Nov 22 03:29:17 combo sshd(pam_unix)[11515]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61.53.154.93  user=root,61.53.154.93,Nov 22,03:29:17,Auth Failure,No
+Nov 22 03:30:40 combo sshd(pam_unix)[23544]: session opened for user test by (uid=509),,Nov 22,03:30:40,Normal,No
+Nov 22 03:40:33 combo sshd(pam_unix)[19645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 22,03:40:33,Auth Failure,No
+Nov 22 03:42:34 combo ftpd[25628]: connection from 211.72.151.162 () at Mon Jul 18 03:26:48 2005,,Nov 22,03:42:34,Normal,No
+Nov 22 03:43:15 combo kernel[-]: Built 1 zonelists,,Nov 22,03:43:15,Normal,No
+Nov 22 03:56:33 combo su(pam_unix)[4170]: session opened for user cyrus by (uid=0),,Nov 22,03:56:33,Normal,No
+Nov 22 04:11:06 combo ftpd[24521]: connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005,,Nov 22,04:11:06,Normal,No
+Nov 22 04:18:29 combo ftpd[23143]: connection from 211.167.68.59 () at Sat Jul  9 12:16:49 2005,,Nov 22,04:18:29,Normal,No
+Nov 22 04:31:44 combo syslog[-]: syslogd startup succeeded,,Nov 22,04:31:44,Normal,No
+Nov 22 04:35:01 combo ftpd[16775]: connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005,,Nov 22,04:35:01,Normal,No
+Nov 22 04:43:37 combo sshd(pam_unix)[28978]: check pass; user unknown,,Nov 22,04:43:37,Normal,No
+Nov 22 04:49:18 combo sshd(pam_unix)[3390]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220.117.241.87  user=root,220.117.241.87,Nov 22,04:49:18,Auth Failure,No
+Nov 22 04:57:03 combo ftpd[2822]: connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005,,Nov 22,04:57:03,Normal,No
+Nov 22 04:59:24 combo sshd(pam_unix)[28868]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 22,04:59:24,Auth Failure,No
+Nov 22 05:06:11 combo sshd(pam_unix)[28870]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 22,05:06:11,Auth Failure,No
+Nov 22 05:12:43 combo sshd(pam_unix)[28872]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 22,05:12:43,Auth Failure,No
+Nov 22 05:21:10 combo sshd(pam_unix)[28874]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 22,05:21:10,Auth Failure,No
+Nov 22 05:22:37 combo sshd(pam_unix)[28876]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root,207.243.167.114,Nov 22,05:22:37,Auth Failure,No
+Nov 22 05:30:12 combo ftpd[8825]: connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005,,Nov 22,05:30:12,Normal,No
+Nov 22 05:36:49 combo ftpd[13247]: connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005,,Nov 22,05:36:49,Normal,No
+Nov 22 05:44:17 combo sshd(pam_unix)[30685]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,05:44:17,Auth Failure,No
+Nov 22 05:53:35 combo sshd(pam_unix)[10045]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=65.166.159.14,65.166.159.14,Nov 22,05:53:35,Auth Failure,No
+Nov 22 05:58:20 combo sshd(pam_unix)[10047]: check pass; user unknown,,Nov 22,05:58:20,Normal,No
+Nov 22 06:08:55 combo ftpd[26468]: connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005,,Nov 22,06:08:55,Normal,No
+Nov 22 06:13:26 combo sshd(pam_unix)[19645]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root,60.30.224.116,Nov 22,06:13:26,Auth Failure,No
+Nov 22 06:26:00 combo sshd(pam_unix)[17132]: check pass; user unknown,,Nov 22,06:26:00,Normal,No
+Nov 22 06:37:40 combo kernel[-]: PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0,,Nov 22,06:37:40,Normal,No
+Nov 22 06:46:36 combo portmap[-]: portmap startup succeeded,,Nov 22,06:46:36,Normal,No
+Nov 22 06:52:12 combo sshd(pam_unix)[20898]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root,220-135-151-1.hinet-ip.hinet.net,Nov 22,06:52:12,Auth Failure,No
+Nov 22 06:53:43 combo ftpd[22665]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Nov 22,06:53:43,Normal,No
+Nov 22 07:07:41 combo ftpd[22666]: connection from 211.107.232.1 () at Sun Jul 24 13:46:34 2005,,Nov 22,07:07:41,Normal,No
+Nov 22 07:18:26 combo ftpd[24479]: connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005,,Nov 22,07:18:26,Normal,No
+Nov 22 07:27:56 combo sshd(pam_unix)[30665]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root,150.183.249.110,Nov 22,07:27:56,Auth Failure,No
+Nov 22 07:30:49 combo sshd(pam_unix)[31035]: check pass; user unknown,,Nov 22,07:30:49,Normal,No
