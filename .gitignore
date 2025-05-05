@@ -14,3 +14,5 @@ datasets/
 model.pth
 model_latest.pth
 .qodo
+
+.env*
