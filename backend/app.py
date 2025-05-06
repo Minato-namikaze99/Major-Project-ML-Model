@@ -1,5 +1,6 @@
 import re
 import os
+from typing import List
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel, EmailStr
 from supabase import create_client
@@ -8,6 +9,7 @@ from datetime import datetime, timedelta
 import smtplib
 from email.message import EmailMessage
 from dotenv import load_dotenv
+from collections import defaultdict
 
 load_dotenv()
 
@@ -109,6 +111,61 @@ def classify_line(line):
 
     return anomaly, log_type
 
+# ShortTermMemory
+
+class ShortTermMemory:
+    def __init__(self, threshold=0.01, ttl_limit=2):
+        self.memory = {}  # { ip: (score, ttl) }
+        self.threshold = threshold
+        self.ttl_limit = ttl_limit
+
+    def update(self, ip_scores):
+        for ip, score in ip_scores.items():
+            if score >= self.threshold:
+                self.memory[ip] = (score, self.ttl_limit)
+
+    def decay(self):
+        to_remove = []
+        for ip, (score, ttl) in self.memory.items():
+            ttl -= 1
+            if ttl <= 0:
+                to_remove.append(ip)
+            else:
+                self.memory[ip] = (score, ttl)
+        for ip in to_remove:
+            del self.memory[ip]
+
+    def get_suspicious_ips(self):
+        return self.memory
+
+# Global memory instance
+memory = ShortTermMemory()
+
+def process_logs(logs_batch):
+    total_logs = len(logs_batch)
+    if total_logs == 0:
+        return []
+
+    ip_anomaly_counts = defaultdict(int)
+    total_anomalies = 0
+
+    for log in logs_batch:
+        ip = log.get("ip")
+        if log.get("anomaly_detected", "No").lower() == "yes":
+            ip_anomaly_counts[ip] += 1
+            total_anomalies += 1
+
+    ip_scores = {ip: count / total_logs for ip, count in ip_anomaly_counts.items()}
+
+    memory.update(ip_scores)
+    memory.decay()
+
+    result = []
+    for ip, (score, ttl) in memory.get_suspicious_ips().items():
+        result.append({"ip": ip, "score": round(score, 4), "ttl": ttl})
+
+    return result
+
 # Endpoints
 
 @app.get("/")
@@ -174,6 +231,10 @@ def send_warning_email(device_id: str, log_line: str):
         s.send_message(msg)
     return {"status":"sent"}
 
+@app.post("/process-logs")
+async def receive_logs(logs: List[dict]):
+    suspicious_ips = process_logs(logs)
+    return {"suspicious_ips": suspicious_ips}
 
 if __name__ == "__main__":
     import uvicorn
