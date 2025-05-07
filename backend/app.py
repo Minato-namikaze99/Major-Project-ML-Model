@@ -7,6 +7,7 @@ from supabase import create_client
 from pymongo import MongoClient
 from datetime import datetime, timedelta
 import smtplib
+from email.mime.text import MIMEText
 from email.message import EmailMessage
 from dotenv import load_dotenv
 from collections import defaultdict
@@ -58,12 +59,17 @@ def within_10_seconds(t1, t2):
 
 # Core classifier
 
-def classify_line(line):
+def classify_line(line, device_id=None):
     dt = extract_datetime(line)
     log_dt = datetime.strptime(dt, "%b %d %H:%M:%S") if dt else None
     ip = extract_ip(line)
     anomaly = "No"
     log_type = "Normal"
+
+    if ip and device_id:
+        suspicious_check = supabase.table("suspicious_ip").select("ip").eq("ip", ip).eq("device_id", device_id).execute()
+        if suspicious_check.data:
+            return "Yes", "Auth Failure"
 
     if "sshd" in line and "authentication failure" in line:
         log_type = "Auth Failure"
@@ -160,8 +166,16 @@ def process_logs(logs_batch):
     memory.update(ip_scores)
     memory.decay()
 
+    # Clear the suspicious_ip table
+    supabase.table("suspicious_ip").delete().neq("id", 0).execute()
+
     result = []
     for ip, (score, ttl) in memory.get_suspicious_ips().items():
+        # Get device_ids where this IP exists
+        r = supabase.table("log_table").select("device_id").eq("ip_address", ip).execute()
+        device_ids = set(row["device_id"] for row in r.data)
+        for device_id in device_ids:
+            supabase.table("suspicious_ip").insert({"ip": ip, "score": round(score, 4), "ttl": ttl, "device_id": device_id}).execute()
         result.append({"ip": ip, "score": round(score, 4), "ttl": ttl})
 
     return result
@@ -196,19 +210,52 @@ def last_log_time(device_id: str):
 def ingest_logs(logs: str, x_device_id: str = Header(...)):
     lines = logs.splitlines()
     rows = []
+
+    # ✅ Insert incoming logs
     for L in lines:
-        status, ltype = classify_line(L)
+        status, ltype = classify_line(L, x_device_id)
         dt = extract_datetime(L) or ""
         date, time = dt.split()[0], dt.split()[1] if dt else (None, None)
         rows.append({
             "logs": L, "ip_address": extract_ip(L), "log_date": date,
             "log_time": time, "log_type": ltype,
-            "anomaly_detected": status, "device_id": x_device_id
+            "anomaly_detected": status, "device_id": x_device_id,
+            "suspicious_check": False  # Ensure it's explicitly set
         })
         if status == "Yes":
             send_warning_email(x_device_id, L)
+
     supabase.table("log_table").insert(rows).execute()
+
+    # ✅ Count logs with suspicious_check == False
+    count_result = supabase.rpc("count_logs_with_false_check").execute()  # Optional optimization
+    if count_result and count_result.data and count_result.data[0]["count"] > 1000:
+        # Fallback in case RPC not used:
+        res = supabase.table("log_table").select("*").eq("suspicious_check", False).limit(2000).execute()
+        unprocessed_logs = res.data
+
+        # Prepare for /process-logs
+        suspicious_ips = process_logs(unprocessed_logs)
+
+        # Update logs: suspicious_check → True
+        log_ids = [log["id"] for log in unprocessed_logs if "id" in log]
+        if log_ids:
+            for log_id in log_ids:
+                supabase.table("log_table").update({"suspicious_check": True}).eq("id", log_id).execute()
+
+        # Add suspicious IPs into suspicious_ip table
+        # for entry in suspicious_ips:
+        #     ip = entry["ip"]
+        #     r = supabase.table("log_table").select("device_id").eq("ip_address", ip).execute()
+        #     device_ids = set([row["device_id"] for row in r.data])
+        #     for dev_id in device_ids:
+        #         exists = supabase.table("suspicious_ip").select("id") \
+        #             .eq("ip_address", ip).eq("device_id", dev_id).execute()
+        #         if not exists.data:
+        #             supabase.table("suspicious_ip").insert({"ip_address": ip,"device_id": dev_id,"score": entry["score"],"ttl": entry["ttl"]}).execute()
+
     return {"inserted": len(rows)}
+
 
 @app.get("/device/{device_id}/logs")
 def get_device_logs(device_id: str):
@@ -222,13 +269,15 @@ def get_user_devices(user_id: str):
 def send_warning_email(device_id: str, log_line: str):
     dev = supabase.table("device_table").select("user_id").eq("device_id", device_id).execute().data[0]
     usr = supabase.table("user_table").select("email").eq("user_id", dev["user_id"]).execute().data[0]
-    msg = EmailMessage()
-    msg["Subject"] = "Security Alert"
-    msg["From"] = "secops@example.com"
+    msg = MIMEText(f"Anomaly detected:\n{log_line}")
+    msg["Subject"] = "Suspicious Activity Detected"
+    msg["From"] = "sender@gmail.com"
     msg["To"] = usr["email"]
-    msg.set_content(f"Anomaly detected:\n{log_line}")
-    with smtplib.SMTP("localhost") as s:
-        s.send_message(msg)
+
+    with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+        server.login("your_email@gmail.com", "your_app_password")
+        server.send_message(msg)
+
     return {"status":"sent"}
 
 @app.post("/process-logs")
