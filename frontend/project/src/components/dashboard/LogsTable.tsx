@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { AlertCircle, Loader2, AlertTriangle, CheckCircle, ChevronLeft, ChevronRight,  } from 'lucide-react';
+import { AlertCircle, Loader2, AlertTriangle, CheckCircle, ChevronLeft, ChevronRight, Mail } from 'lucide-react';
 import { AnomalyLog } from '../../services/supabase';
 
 interface LogsTableProps {
@@ -18,6 +18,7 @@ function parseLogLine(line: string) {
 const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) => {
   const [page, setPage] = useState(1);
   const [hoveredLog, setHoveredLog] = useState<AnomalyLog | null>(null);
+  const [sendingEmail, setSendingEmail] = useState<number | null>(null);
   const perPage = 15;
 
   const sorted = useMemo(
@@ -28,11 +29,18 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
   const totalPages = Math.ceil(sorted.length / perPage);
   const pageSlice = sorted.slice((page - 1) * perPage, page * perPage);
 
-  // Calculate how many anomalies are in the current data
-  // const anomalyCount = useMemo(() => 
-  //   sorted.filter(log => log.anomaly_detected).length,
-  //   [sorted]
-  // );
+  const handleSendEmail = async (logId: number) => {
+    setSendingEmail(logId);
+    try {
+      // TODO: Implement email sending functionality
+      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated delay
+      console.log(`Sending warning email for log ID: ${logId}`);
+    } catch (error) {
+      console.error('Error sending email:', error);
+    } finally {
+      setSendingEmail(null);
+    }
+  };
 
   // Empty state
   if (loading) {
@@ -69,42 +77,12 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
   // Main table render
   return (
     <div className="space-y-4">
-      {/* Header stats */}
-      {/* <div className="flex flex-wrap gap-4 mb-4">
-        <div className="bg-gray-800 rounded-lg p-4 flex-1 shadow-md">
-          <div className="flex items-center text-gray-400 text-sm font-medium">
-            <Info className="w-4 h-4 mr-2" />
-            Total Logs
-          </div>
-          <div className="mt-1 text-xl font-semibold">{sorted.length}</div>
-        </div>
-        
-        <div className={`rounded-lg p-4 flex-1 shadow-md ${anomalyCount > 0 ? 'bg-red-900/30' : 'bg-green-900/30'}`}>
-          <div className="flex items-center text-gray-300 text-sm font-medium">
-            <AlertTriangle className={`w-4 h-4 mr-2 ${anomalyCount > 0 ? 'text-red-400' : 'text-green-400'}`} />
-            Anomalies Detected
-          </div>
-          <div className={`mt-1 text-xl font-semibold ${anomalyCount > 0 ? 'text-red-400' : 'text-green-400'}`}>
-            {anomalyCount}
-          </div>
-        </div>
-        
-        <div className="bg-gray-800 rounded-lg p-4 flex-1 shadow-md">
-          <div className="flex items-center text-gray-400 text-sm font-medium">
-            <Info className="w-4 h-4 mr-2" />
-            Current Page
-          </div>
-          <div className="mt-1 text-xl font-semibold">{page} of {totalPages}</div>
-        </div>
-      </div> */}
-
-      {/* Main table */}
       <div className="relative overflow-hidden rounded-lg border border-gray-700 shadow-lg">
         <div className="overflow-x-auto max-h-[600px]">
           <table className="min-w-full divide-y divide-gray-700">
             <thead className="bg-gray-800 sticky top-0 z-10">
               <tr>
-                {['Line ID', 'Time', 'Component', 'Content', 'Status'].map(header => (
+                {['Line ID', 'Time', 'Component', 'Content', 'Device ID', 'Status', 'Actions'].map(header => (
                   <th key={header} className="px-6 py-3 text-left text-xs font-medium uppercase tracking-wider text-gray-300">
                     {header}
                   </th>
@@ -130,6 +108,7 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
                       <span className="px-2 py-1 bg-gray-800 rounded-md text-gray-300">{component}</span>
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-300 max-w-md truncate">{content}</td>
+                    <td className="px-6 py-4 text-sm whitespace-nowrap text-gray-300">-</td>
                     <td className="px-6 py-4 text-sm whitespace-nowrap">
                       {isAnomaly ? (
                         <span className="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium bg-red-900/30 text-red-400">
@@ -140,6 +119,25 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
                           <CheckCircle className="w-4 h-4 mr-1.5" />Normal
                         </span>
                       )}
+                    </td>
+                    <td className="px-6 py-4 text-sm whitespace-nowrap">
+                      <button
+                        onClick={() => handleSendEmail(log.LineId)}
+                        disabled={!isAnomaly || sendingEmail === log.LineId}
+                        className="inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:opacity-50 disabled:cursor-not-allowed"
+                      >
+                        {sendingEmail === log.LineId ? (
+                          <>
+                            <Loader2 className="animate-spin -ml-1 mr-2 h-4 w-4" />
+                            Sending...
+                          </>
+                        ) : (
+                          <>
+                            <Mail className="-ml-1 mr-2 h-4 w-4" />
+                            Send Warning Email
+                          </>
+                        )}
+                      </button>
                     </td>
 
                     {/* Tooltip/popup */}

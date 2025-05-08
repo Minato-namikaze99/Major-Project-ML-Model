@@ -14,6 +14,7 @@ import Sidebar from '../components/layout/Sidebar';
 import BarChart from '../components/dashboard/BarChart';
 import PieChart from '../components/dashboard/PieChart';
 import LogsTable from '../components/dashboard/LogsTable';
+import SuspiciousIPsTable from '../components/dashboard/SuspiciousIPsTable';
 import StatsCounters from '../components/dashboard/StatsCounters';
 import Filters from '../components/dashboard/Filters';
 import { LogOut, Download, RotateCw, Shield } from 'lucide-react';
@@ -151,6 +152,20 @@ const Dashboard = () => {
             </div>
             <LogsTable
               anomalyLogs={filteredLogs}
+              loading={loading}
+              error={error}
+            />
+          </div>
+
+          <div className="overflow-hidden rounded-xl mt-10 bg-white shadow-lg transition-shadow hover:shadow-xl dark:bg-gray-800 dark:border dark:border-gray-700">
+            {/* <div className="p-5 border-b border-gray-200 dark:border-gray-700">
+              <h2 className="text-lg font-semibold flex items-center text-gray-800 dark:text-gray-200">
+                <span className="inline-block w-3 h-3 bg-red-500 rounded-full mr-2"></span>
+                Suspicious IP Addresses
+              </h2>
+            </div> */}
+            <SuspiciousIPsTable
+              logs={filteredLogs}
               loading={loading}
               error={error}
             />
