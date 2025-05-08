@@ -54,7 +54,7 @@ send_new_logs() {
          month=$1; day=sprintf("%02d", $2); time=$3;
          iso = year "-" m[month] "-" day "T" time;
          if (iso > last) print $0;
-       }' /var/log/auth.log | \
+       }' /home/minato/linux.log | \
   curl -s -X POST "$BASE_URL/ingest_logs" \
     -H "Content-Type: text/plain" \
     -H "X-Device-ID: $DEVICE_ID" \
