@@ -139,53 +139,53 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
                         )}
                       </button>
                     </td>
-
-                    {/* Tooltip/popup */}
-                    {hoveredLog === log && (
-                      <div className="absolute z-20 right-8 top-0 mt-12 w-72 transform transition-all">
-                        <div className="bg-gray-800 border border-gray-700 text-white p-4 rounded-lg shadow-xl text-sm">
-                          <div className="font-semibold mb-2 text-gray-300">Log Details</div>
-                          <div className="grid grid-cols-2 gap-1">
-                            <div className="text-gray-400">IP:</div>
-                            <div className="text-white">{log.ip_address}</div>
-                            
-                            <div className="text-gray-400">Date:</div>
-                            <div className="text-white">{log.date}</div>
-                            
-                            <div className="text-gray-400">Time:</div>
-                            <div className="text-white">{log.time}</div>
-                            
-                            <div className="text-gray-400">Log Type:</div>
-                            <div className="text-white">{log.log_type}</div>
-                            
-                            <div className="text-gray-400">Auth Failures (1h):</div>
-                            <div className="text-white">{log.auth_failures_last_1h}</div>
-                            
-                            <div className="text-gray-400">Since Last Failure:</div>
-                            <div className="text-white">{log.time_since_last_failure}s</div>
-                            
-                            <div className="text-gray-400">Root Attempt:</div>
-                            <div className={log.is_root_attempt ? 'text-red-400' : 'text-green-400'}>
-                              {log.is_root_attempt ? 'Yes' : 'No'}
-                            </div>
-                            
-                            <div className="text-gray-400">Unique Users:</div>
-                            <div className="text-white">{log.unique_users_attempted}</div>
-                            
-                            <div className="text-gray-400">Anomaly:</div>
-                            <div className={log.anomaly_detected ? 'text-red-400' : 'text-green-400'}>
-                              {log.anomaly_detected ? 'Yes' : 'No'}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
                   </tr>
                 );
               })}
             </tbody>
           </table>
         </div>
+
+        {/* Tooltip/popup */}
+        {hoveredLog && (
+          <div className="absolute z-20 right-8 top-0 mt-12 w-72 transform transition-all">
+            <div className="bg-gray-800 border border-gray-700 text-white p-4 rounded-lg shadow-xl text-sm">
+              <div className="font-semibold mb-2 text-gray-300">Log Details</div>
+              <div className="grid grid-cols-2 gap-1">
+                <div className="text-gray-400">IP:</div>
+                <div className="text-white">{hoveredLog.ip_address}</div>
+                
+                <div className="text-gray-400">Date:</div>
+                <div className="text-white">{hoveredLog.date}</div>
+                
+                <div className="text-gray-400">Time:</div>
+                <div className="text-white">{hoveredLog.time}</div>
+                
+                <div className="text-gray-400">Log Type:</div>
+                <div className="text-white">{hoveredLog.log_type}</div>
+                
+                <div className="text-gray-400">Auth Failures (1h):</div>
+                <div className="text-white">{hoveredLog.auth_failures_last_1h}</div>
+                
+                <div className="text-gray-400">Since Last Failure:</div>
+                <div className="text-white">{hoveredLog.time_since_last_failure}s</div>
+                
+                <div className="text-gray-400">Root Attempt:</div>
+                <div className={hoveredLog.is_root_attempt ? 'text-red-400' : 'text-green-400'}>
+                  {hoveredLog.is_root_attempt ? 'Yes' : 'No'}
+                </div>
+                
+                <div className="text-gray-400">Unique Users:</div>
+                <div className="text-white">{hoveredLog.unique_users_attempted}</div>
+                
+                <div className="text-gray-400">Anomaly:</div>
+                <div className={hoveredLog.anomaly_detected ? 'text-red-400' : 'text-green-400'}>
+                  {hoveredLog.anomaly_detected ? 'Yes' : 'No'}
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Pagination */}
         {totalPages > 1 && (

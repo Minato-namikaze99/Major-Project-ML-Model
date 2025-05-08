@@ -18,7 +18,7 @@ const SuspiciousIPsTable: React.FC<SuspiciousIPsTableProps> = ({ logs, loading, 
 
   // Get unique suspicious IPs with just the essential information
   const suspiciousIPs = Array.from(
-    logs.filter(log => log.anomaly_detected)
+    logs.filter(log => log.anomaly_detected && log.ip_address && log.ip_address.trim() !== '')
       .reduce((acc, log) => {
         if (!acc.has(log.ip_address)) {
           acc.set(log.ip_address, {
@@ -107,13 +107,10 @@ const SuspiciousIPsTable: React.FC<SuspiciousIPsTableProps> = ({ logs, loading, 
                   <button
                     onClick={() => handleSendEmail(ip.ip)}
                     disabled={sendingEmail === ip.ip}
-                    className="inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
+                    className="inline-flex items-center px-2 py-1 border border-transparent text-xs font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:opacity-50 disabled:cursor-not-allowed transition-colors duration-200"
                   >
                     {sendingEmail === ip.ip ? (
-                      <>
-                        <Loader2 className="animate-spin -ml-1 mr-2 h-4 w-4" />
-                        Sending...
-                      </>
+                      <Loader2 className="animate-spin h-4 w-4" />
                     ) : (
                       <>
                         <Mail className="-ml-1 mr-2 h-4 w-4" />
