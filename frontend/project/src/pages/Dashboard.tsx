@@ -49,7 +49,20 @@ const Dashboard = () => {
   const [totalCount, setTotalCount] = useState(0);
   // const { theme, toggleTheme } = useTheme();
 
+  // Initial load
   useEffect(() => { load(); }, []);
+  
+  // Set up automatic refresh every 10 seconds
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      load();
+      console.log('Auto-refreshed logs at', new Date().toLocaleTimeString());
+    }, 10000); // 10 seconds in milliseconds
+    
+    // Clean up interval on component unmount
+    return () => clearInterval(intervalId);
+  }, [user?.admin_id]);
+  
   useEffect(() => { applyFilters(); }, [logType, anomStatus, searchTerm]);
   
   // Add a separate effect for when logs change
@@ -60,7 +73,6 @@ const Dashboard = () => {
   }, [logs]);
 
   async function load() {
-    setLoading(true);
     setRefreshing(true);
     try {
       if (!user?.admin_id) {
@@ -77,11 +89,11 @@ const Dashboard = () => {
       setFiltered(mappedLogs);
       setTotalCount(mappedLogs.length);
       setSuspiciousIPs(data.suspicious_ip);
+      setError(null); // Clear any previous errors on successful load
     } catch (e: any) {
       console.error('Error loading logs:', e);
       setError(e.message || 'Failed to load logs');
-      setLogs([]);
-      setFiltered([]);
+      // Don't clear existing data on error to prevent UI disruption
     } finally {
       setLoading(false);
       setRefreshing(false);

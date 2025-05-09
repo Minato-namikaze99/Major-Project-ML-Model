@@ -24,24 +24,11 @@ const SuspiciousIPsTable: React.FC<SuspiciousIPsTableProps> = ({
   const [sendingEmail, setSendingEmail] = useState<string | null>(null);
   const [emailStatus, setEmailStatus] = useState<{ip: string, status: 'success' | 'error', message: string} | null>(null);
 
-  // Get suspicious IPs either from API or fallback to logs filtering
-  const displayIPs = suspiciousIPs.length > 0 
-    ? suspiciousIPs.map(ip => ({
-        ip: ip.ip_addresses,
-        deviceId: ip.device_id
-      }))
-    : Array.from(
-        logs.filter(log => log.anomaly_detected && log.ip_address && log.ip_address.trim() !== '')
-          .reduce((acc, log) => {
-            if (!acc.has(log.ip_address)) {
-              acc.set(log.ip_address, {
-                ip: log.ip_address,
-                deviceId: log.device_id || '-'
-              });
-            }
-            return acc;
-          }, new Map<string, { ip: string; deviceId: string }>())
-      ).map(([_, value]) => value);
+  // Only display IPs from the suspicious_ip array, no fallback
+  const displayIPs = suspiciousIPs.map(ip => ({
+    ip: ip.ip_addresses,
+    deviceId: ip.device_id
+  }));
 
   const handleSendEmail = async (ipAddress: string, deviceId: string) => {
     // Only proceed if we're not already sending to this IP
