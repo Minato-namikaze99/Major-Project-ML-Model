@@ -1,4 +1,5 @@
 import re
+import random
 import os
 from typing import List
 from fastapi import FastAPI, Header, HTTPException, Body, Request
@@ -202,7 +203,7 @@ def classify_line(line, device_id=None):
 
 
 class ShortTermMemory:
-    def __init__(self, threshold=0.01, ttl_limit=2):
+    def __init__(self, threshold=0.025, ttl_limit=2):
         self.memory = {}  # { ip: (score, ttl) }
         self.threshold = threshold
         self.ttl_limit = ttl_limit
@@ -240,7 +241,7 @@ def process_logs(logs_batch):
     total_anomalies = 0
 
     for log in logs_batch:
-        ip = log.get("ip")
+        ip = log.get("ip_address")
         if log.get("anomaly_detected", "No").lower() == "yes":
             ip_anomaly_counts[ip] += 1
             total_anomalies += 1
@@ -286,30 +287,42 @@ def root():
 
 @app.post("/register_user")
 def register_user(p: RegisterUser):
-    exists = (
-        supabase.table("user_table")
-        .select("user_id")
-        .eq("user_name", p.username)
+    # 1) Check username uniqueness
+    exists = supabase.table("user_table") \
+        .select("user_id") \
+        .eq("user_name", p.username) \
         .execute()
-    )
     if exists.data:
         raise HTTPException(400, "Username taken")
-    u = (
-        supabase.table("user_table")
-        .insert(
-            {
-                "user_name": p.username,
-                "email": p.email,
-                "contact_no": p.contact_no,
-                "devices": 0,
-            }
-        )
-        .execute()
-    )
+
+    # 2) Create the user
+    u = supabase.table("user_table").insert({
+        "user_name": p.username,
+        "email": p.email,
+        "contact_no": p.contact_no,
+        "devices": 0
+    }).execute()
     user_id = u.data[0]["user_id"]
-    d = supabase.table("device_table").insert({"user_id": user_id}).execute()
+
+    # 3) Pick a random admin
+    admins = supabase.table("admin_table").select("admin_id").execute().data
+    if not admins:
+        raise HTTPException(500, "No admins available")
+    selected_admin_id = random.choice(admins)["admin_id"]
+
+    # 4) Create the device record *with* admin_id
+    d = supabase.table("device_table").insert({
+        "user_id": user_id,
+        "admin_id": selected_admin_id
+    }).execute()
+
+    # 5) Update the user's device count
+    supabase.table("user_table") \
+        .update({"devices": 1}) \
+        .eq("user_id", user_id) \
+        .execute()
+
     device_id = d.data[0]["device_id"]
-    supabase.table("user_table").update({"devices": 1}).eq("user_id", user_id).execute()
     return {"device_id": device_id}
 
 
@@ -384,14 +397,15 @@ def ingest_logs(
     if rows:
         supabase.table("log_table").insert(rows).execute()
 
-    # Trigger process_logs only if 1000+ logs are unprocessed
+    # Trigger process_logs only if 200+ logs are unprocessed
     res_count = (
         supabase.table("log_table")
         .select("log_id")
         .eq("suspicious_check", False)
         .execute()
     )
-    if res_count.data and len(res_count.data) > 1000:
+    print("res_count:", len(res_count.data))
+    if res_count.data and len(res_count.data) >= 200:
         unprocessed = (
             supabase.table("log_table")
             .select("*")
