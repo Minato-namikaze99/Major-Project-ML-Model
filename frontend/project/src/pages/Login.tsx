@@ -17,8 +17,9 @@ const Login = () => {
   };
 
   const handleDemoLogin = async () => {
-    const demoEmail = 'demo@example.com';
-    const demoPassword = 'password123';
+    // This should be an admin email and password from your admin_table
+    const demoEmail = 'admin@example.com';
+    const demoPassword = 'wsdtgqer163w';
     
     setEmail(demoEmail);
     setPassword(demoPassword);
@@ -40,7 +41,7 @@ const Login = () => {
             
             <h2 className="mb-2 text-center text-3xl font-bold text-white">Linux Log Guardian</h2>
             <p className="mb-8 text-center text-gray-300">
-              Sign in to access your system logs
+              Admin Sign in
             </p>
             
             {error && (
@@ -102,8 +103,8 @@ const Login = () => {
               
               {showDummyCredentials && (
                 <div className="mb-4 rounded-md bg-gray-700/50 p-3 text-sm text-gray-300">
-                  <p><strong>Email:</strong> demo@example.com</p>
-                  <p><strong>Password:</strong> password123</p>
+                  <p><strong>Email:</strong> admin@example.com</p>
+                  <p><strong>Password:</strong> wsdtgqer163w</p>
                 </div>
               )}
               
@@ -111,7 +112,7 @@ const Login = () => {
                 onClick={handleDemoLogin}
                 className="w-full rounded-lg border border-gray-600 bg-gray-700/30 px-4 py-2 text-center text-sm font-medium text-gray-300 transition-all hover:bg-gray-600"
               >
-                Login with Demo Account
+                Login with Admin Account
               </button>
             </div>
           </div>

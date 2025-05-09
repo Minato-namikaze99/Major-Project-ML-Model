@@ -1,6 +1,7 @@
 import React, { useState, useMemo } from 'react';
-import { AlertCircle, Loader2, AlertTriangle, CheckCircle, ChevronLeft, ChevronRight, Mail } from 'lucide-react';
+import { AlertCircle, Loader2, AlertTriangle, CheckCircle, ChevronLeft, ChevronRight, Mail, X } from 'lucide-react';
 import { AnomalyLog } from '../../services/supabase';
+import { sendWarningEmail } from '../../services/api';
 
 interface LogsTableProps {
   anomalyLogs: AnomalyLog[];
@@ -17,8 +18,9 @@ function parseLogLine(line: string) {
 
 const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) => {
   const [page, setPage] = useState(1);
-  const [hoveredLog, setHoveredLog] = useState<AnomalyLog | null>(null);
+  const [selectedLog, setSelectedLog] = useState<AnomalyLog | null>(null);
   const [sendingEmail, setSendingEmail] = useState<number | null>(null);
+  const [emailStatus, setEmailStatus] = useState<{id: number, status: 'success' | 'error', message: string} | null>(null);
   const perPage = 15;
 
   const sorted = useMemo(
@@ -29,14 +31,46 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
   const totalPages = Math.ceil(sorted.length / perPage);
   const pageSlice = sorted.slice((page - 1) * perPage, page * perPage);
 
-  const handleSendEmail = async (logId: number) => {
+  const handleSelectLog = (log: AnomalyLog) => {
+    // Toggle selection - if already selected, deselect it
+    setSelectedLog(prev => prev?.LineId === log.LineId ? null : log);
+  };
+
+  const handleCloseDetails = (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent event bubbling
+    setSelectedLog(null);
+  };
+
+  const handleSendEmail = async (logId: number, log: AnomalyLog) => {
+    if (!log.device_id) {
+      setEmailStatus({
+        id: logId,
+        status: 'error',
+        message: 'Cannot send email: Missing device ID'
+      });
+      return;
+    }
+
     setSendingEmail(logId);
+    setEmailStatus(null);
+    
     try {
-      // TODO: Implement email sending functionality
-      await new Promise(resolve => setTimeout(resolve, 1000)); // Simulated delay
-      console.log(`Sending warning email for log ID: ${logId}`);
+      console.log(`Sending warning email for log ID: ${logId}, Device ID: ${log.device_id}, Log: ${log.logs}`);
+      const result = await sendWarningEmail(log.device_id, log.logs);
+      console.log('Email sent successfully:', result);
+      
+      setEmailStatus({
+        id: logId,
+        status: 'success',
+        message: 'Warning email sent successfully'
+      });
     } catch (error) {
       console.error('Error sending email:', error);
+      setEmailStatus({
+        id: logId,
+        status: 'error',
+        message: error instanceof Error ? error.message : 'Failed to send email'
+      });
     } finally {
       setSendingEmail(null);
     }
@@ -77,6 +111,15 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
   // Main table render
   return (
     <div className="space-y-4">
+      {emailStatus && (
+        <div className={`mb-4 p-3 rounded-lg text-white ${emailStatus.status === 'success' ? 'bg-green-600' : 'bg-red-600'}`}>
+          <p className="text-sm font-medium">
+            {emailStatus.status === 'success' ? '✓ ' : '✗ '}
+            {emailStatus.message}
+          </p>
+        </div>
+      )}
+    
       <div className="relative overflow-hidden rounded-lg border border-gray-700 shadow-lg">
         <div className="overflow-x-auto max-h-[600px]">
           <table className="min-w-full divide-y divide-gray-700">
@@ -94,13 +137,13 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
               {pageSlice.map(log => {
                 const { time, component, content } = parseLogLine(log.logs);
                 const isAnomaly = log.anomaly_detected;
+                const isSelected = selectedLog?.LineId === log.LineId;
 
                 return (
                   <tr 
                     key={log.LineId}
-                    onMouseEnter={() => setHoveredLog(log)}
-                    onMouseLeave={() => setHoveredLog(null)}
-                    className={`relative transition-colors hover:bg-gray-800 cursor-pointer ${isAnomaly ? 'bg-red-900/10' : ''}`}
+                    onClick={() => handleSelectLog(log)}
+                    className={`relative transition-colors hover:bg-gray-800 cursor-pointer ${isAnomaly ? 'bg-red-900/10' : ''} ${isSelected ? 'bg-blue-900/20 ring-1 ring-blue-500' : ''}`}
                   >
                     <td className="px-6 py-4 text-sm whitespace-nowrap">{log.LineId}</td>
                     <td className="px-6 py-4 text-sm whitespace-nowrap text-gray-300">{time}</td>
@@ -108,7 +151,7 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
                       <span className="px-2 py-1 bg-gray-800 rounded-md text-gray-300">{component}</span>
                     </td>
                     <td className="px-6 py-4 text-sm text-gray-300 max-w-md truncate">{content}</td>
-                    <td className="px-6 py-4 text-sm whitespace-nowrap text-gray-300">-</td>
+                    <td className="px-6 py-4 text-sm whitespace-nowrap text-gray-300">{log.device_id || '-'}</td>
                     <td className="px-6 py-4 text-sm whitespace-nowrap">
                       {isAnomaly ? (
                         <span className="inline-flex items-center px-2.5 py-1 rounded-md text-sm font-medium bg-red-900/30 text-red-400">
@@ -122,7 +165,10 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
                     </td>
                     <td className="px-6 py-4 text-sm whitespace-nowrap">
                       <button
-                        onClick={() => handleSendEmail(log.LineId)}
+                        onClick={(e) => {
+                          e.stopPropagation(); // Prevent row click
+                          handleSendEmail(log.LineId, log);
+                        }}
                         disabled={!isAnomaly || sendingEmail === log.LineId}
                         className="inline-flex items-center px-3 py-1.5 border border-transparent text-sm font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 disabled:opacity-50 disabled:cursor-not-allowed"
                       >
@@ -146,42 +192,67 @@ const LogsTable: React.FC<LogsTableProps> = ({ anomalyLogs, loading, error }) =>
           </table>
         </div>
 
-        {/* Tooltip/popup */}
-        {hoveredLog && (
-          <div className="absolute z-20 right-8 top-0 mt-12 w-72 transform transition-all">
-            <div className="bg-gray-800 border border-gray-700 text-white p-4 rounded-lg shadow-xl text-sm">
-              <div className="font-semibold mb-2 text-gray-300">Log Details</div>
-              <div className="grid grid-cols-2 gap-1">
-                <div className="text-gray-400">IP:</div>
-                <div className="text-white">{hoveredLog.ip_address}</div>
+        {/* Details popup */}
+        {selectedLog && (
+          <div className="fixed inset-0 z-50 overflow-auto bg-black bg-opacity-50 flex items-center justify-center">
+            <div className="bg-gray-800 border border-gray-700 text-white p-6 rounded-lg shadow-xl max-w-xl w-full m-4 relative">
+              <button 
+                onClick={handleCloseDetails}
+                className="absolute top-4 right-4 text-gray-400 hover:text-white p-1 rounded-full hover:bg-gray-700 transition-colors"
+              >
+                <X size={20} />
+              </button>
+              
+              <h3 className="text-xl font-semibold mb-4 border-b border-gray-700 pb-2 text-blue-400">Log Details</h3>
+              
+              <div className="grid grid-cols-2 gap-3">
+                <div className="text-gray-400 font-medium">Log ID:</div>
+                <div className="text-white">{selectedLog.LineId}</div>
                 
-                <div className="text-gray-400">Date:</div>
-                <div className="text-white">{hoveredLog.date}</div>
+                <div className="text-gray-400 font-medium">IP Address:</div>
+                <div className="text-white font-mono">{selectedLog.ip_address}</div>
                 
-                <div className="text-gray-400">Time:</div>
-                <div className="text-white">{hoveredLog.time}</div>
+                <div className="text-gray-400 font-medium">Date:</div>
+                <div className="text-white">{selectedLog.date}</div>
                 
-                <div className="text-gray-400">Log Type:</div>
-                <div className="text-white">{hoveredLog.log_type}</div>
+                <div className="text-gray-400 font-medium">Time:</div>
+                <div className="text-white">{selectedLog.time}</div>
                 
-                <div className="text-gray-400">Auth Failures (1h):</div>
-                <div className="text-white">{hoveredLog.auth_failures_last_1h}</div>
+                <div className="text-gray-400 font-medium">Log Type:</div>
+                <div className="text-white">{selectedLog.log_type}</div>
                 
-                <div className="text-gray-400">Since Last Failure:</div>
-                <div className="text-white">{hoveredLog.time_since_last_failure}s</div>
+                <div className="text-gray-400 font-medium">Auth Failures (1h):</div>
+                <div className="text-white">{selectedLog.auth_failures_last_1h}</div>
                 
-                <div className="text-gray-400">Root Attempt:</div>
-                <div className={hoveredLog.is_root_attempt ? 'text-red-400' : 'text-green-400'}>
-                  {hoveredLog.is_root_attempt ? 'Yes' : 'No'}
+                <div className="text-gray-400 font-medium">Time Since Last Failure:</div>
+                <div className="text-white">{selectedLog.time_since_last_failure}s</div>
+                
+                <div className="text-gray-400 font-medium">Root Attempt:</div>
+                <div className={selectedLog.is_root_attempt ? 'text-red-400' : 'text-green-400'}>
+                  {selectedLog.is_root_attempt ? 'Yes' : 'No'}
                 </div>
                 
-                <div className="text-gray-400">Unique Users:</div>
-                <div className="text-white">{hoveredLog.unique_users_attempted}</div>
+                <div className="text-gray-400 font-medium">Unique Users Attempted:</div>
+                <div className="text-white">{selectedLog.unique_users_attempted}</div>
                 
-                <div className="text-gray-400">Anomaly:</div>
-                <div className={hoveredLog.anomaly_detected ? 'text-red-400' : 'text-green-400'}>
-                  {hoveredLog.anomaly_detected ? 'Yes' : 'No'}
+                <div className="text-gray-400 font-medium">Anomaly Detected:</div>
+                <div className={selectedLog.anomaly_detected ? 'text-red-400' : 'text-green-400'}>
+                  {selectedLog.anomaly_detected ? 'Yes' : 'No'}
                 </div>
+                
+                <div className="text-gray-400 font-medium col-span-2">Log Content:</div>
+                <div className="col-span-2 bg-gray-900 p-3 rounded font-mono text-sm text-gray-300 break-all">
+                  {selectedLog.logs}
+                </div>
+              </div>
+              
+              <div className="mt-6 flex justify-end">
+                <button
+                  onClick={handleCloseDetails}
+                  className="px-4 py-2 bg-gray-700 hover:bg-gray-600 text-white rounded-md transition-colors"
+                >
+                  Close
+                </button>
               </div>
             </div>
           </div>

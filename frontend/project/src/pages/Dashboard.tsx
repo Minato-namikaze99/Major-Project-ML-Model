@@ -2,13 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import {
-  AnomalyLog,
-  fetchLogs,
-  filterLogs,
-  downloadLogsAsCSV,
-  countTotalLogs
-} from '../services/supabase';
+import { fetchAdminLogsSummary, BackendLog, SuspiciousIP, downloadLogsAsCSV } from '../services/api';
 import Navbar from '../components/layout/Navbar';
 import Sidebar from '../components/layout/Sidebar';
 import BarChart from '../components/dashboard/BarChart';
@@ -18,14 +12,34 @@ import SuspiciousIPsTable from '../components/dashboard/SuspiciousIPsTable';
 import StatsCounters from '../components/dashboard/StatsCounters';
 import Filters from '../components/dashboard/Filters';
 import { LogOut, Download, RotateCw, Shield } from 'lucide-react';
+import { AnomalyLog } from '../services/supabase';
 // import { useTheme } from '../contexts/ThemeContext';
 
+// Helper to map BackendLog to AnomalyLog
+function mapBackendLogToAnomalyLog(log: BackendLog, idx: number): AnomalyLog {
+  return {
+    LineId: idx + 1,
+    logs: log.logs,
+    ip_address: log.ip_address,
+    date: log.log_date,
+    time: log.log_time,
+    log_type: log.log_type,
+    auth_failures_last_1h: 0, // Not available from backend, set default
+    time_since_last_failure: 0, // Not available from backend, set default
+    is_root_attempt: false, // Not available from backend, set default
+    unique_users_attempted: 0, // Not available from backend, set default
+    anomaly_detected: log.anomaly_detected === 'Yes',
+    device_id: log.device_id // Include the device_id from the backend response
+  };
+}
+
 const Dashboard = () => {
-  const { signOut } = useAuth();
+  const { signOut, user } = useAuth();
   const nav = useNavigate();
 
   const [logs, setLogs] = useState<AnomalyLog[]>([]);
   const [filteredLogs, setFiltered] = useState<AnomalyLog[]>([]);
+  const [suspiciousIPs, setSuspiciousIPs] = useState<SuspiciousIP[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string|null>(null);
   const [logType, setLogType] = useState<string|undefined>();
@@ -37,29 +51,55 @@ const Dashboard = () => {
 
   useEffect(() => { load(); }, []);
   useEffect(() => { applyFilters(); }, [logType, anomStatus, searchTerm]);
+  
+  // Add a separate effect for when logs change
+  useEffect(() => {
+    if (logs.length > 0) {
+      applyFilters();
+    }
+  }, [logs]);
 
   async function load() {
     setLoading(true);
     setRefreshing(true);
     try {
-      const all = await fetchLogs();
-      console.log('🔍 fetched logs count:', all.length);
-      setLogs(all);
-      setFiltered(all);
-      setTotalCount(await countTotalLogs());
+      if (!user?.admin_id) {
+        console.error('Missing admin_id, user may not be logged in');
+        throw new Error('You are not logged in. Please login again.');
+      }
+      
+      console.log('Fetching logs for admin:', user.admin_id);
+      const data = await fetchAdminLogsSummary(user.admin_id);
+      console.log('Retrieved log data:', data);
+      
+      const mappedLogs = data.logs.map(mapBackendLogToAnomalyLog);
+      setLogs(mappedLogs);
+      setFiltered(mappedLogs);
+      setTotalCount(mappedLogs.length);
+      setSuspiciousIPs(data.suspicious_ip);
     } catch (e: any) {
-      setError(e.message);
+      console.error('Error loading logs:', e);
+      setError(e.message || 'Failed to load logs');
+      setLogs([]);
+      setFiltered([]);
     } finally {
       setLoading(false);
       setRefreshing(false);
     }
   }
 
-  async function applyFilters() {
+  function applyFilters() {
     setLoading(true);
     try {
-      const f = await filterLogs(logType, anomStatus, searchTerm);
-      setFiltered(f);
+      let filtered = logs;
+      if (logType) filtered = filtered.filter(l => l.log_type === logType);
+      if (anomStatus !== undefined)
+        filtered = filtered.filter(l => l.anomaly_detected === anomStatus);
+      if (searchTerm) {
+        const term = searchTerm.toLowerCase();
+        filtered = filtered.filter(l => l.logs.toLowerCase().includes(term));
+      }
+      setFiltered(filtered);
     } catch (e: any) {
       setError(e.message);
     } finally {
@@ -166,6 +206,7 @@ const Dashboard = () => {
             </div> */}
             <SuspiciousIPsTable
               logs={filteredLogs}
+              suspiciousIPs={suspiciousIPs}
               loading={loading}
               error={error}
             />
