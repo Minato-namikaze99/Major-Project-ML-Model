@@ -514,7 +514,7 @@ Your Security Team
           <blockquote style="background:#fff;padding:10px;border-left:4px solid #c00;">
             <pre style="margin:0;">{log_line}</pre>
           </blockquote>
-          <p>If you did not initiate this, please log in to your control panel or contact our support team immediately.</p>
+          <p>Please log in to device immediately to look into the issue.</p>
           <p>—<br>Your Security Team</p>
         </td>
       </tr>
