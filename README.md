@@ -1,4 +1,4 @@
-# Major Project - SIEM
+# Major-Project-SIEM
 
 A full-stack SIEM-style solution for real-time SSH intrusion detection using system logs and alerting system.  
 - **Backend**: Python + FastAPI + Supabase + MongoDB  
@@ -56,7 +56,7 @@ A full-stack SIEM-style solution for real-time SSH intrusion detection using sys
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-cd Major Project - SIEM
+cd Major-Project-SIEM
 ```
 
 > In case of any issues with Virtual environment, you can refer to these links here - [link1](https://www.w3schools.com/python/python_virtualenv.asp) and [link2](https://docs.python.org/3/library/venv.html)
