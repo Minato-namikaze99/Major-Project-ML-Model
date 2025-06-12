@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+const backendUrl = process.env.VITE_BACKEND_URL;
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -10,11 +11,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/admin': {
-        target: 'http://localhost:8000',
+        target: backendUrl,
         changeOrigin: true,
       },
       '/send_warning': {
-        target: 'http://localhost:8000',
+        target: backendUrl,
         changeOrigin: true,
       }
     }

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # client.sh: send only new lines after last_log_time
 
-BASE_URL="http://127.0.0.1:8000"
+BASE_URL="http://<backend-url>:8000"
 CONFIG="$HOME/.log_protect.conf"
 CURRENT_YEAR=$(date +"%Y")
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # client.sh: send only new lines after last_log_time
 
-BASE_URL="url and port"
+BASE_URL="http://<backend-url>:8000"
 CONFIG="$HOME/.log_protect.conf"
 CURRENT_YEAR=$(date +"%Y")
 
@@ -54,7 +54,7 @@ send_new_logs() {
          month=$1; day=sprintf("%02d", $2); time=$3;
          iso = year "-" m[month] "-" day "T" time;
          if (iso > last) print $0;
-       }' /var/log/auth.log | \
+       }' /var/log/linux.log | \
   curl -s -X POST "$BASE_URL/ingest_logs" \
     -H "Content-Type: text/plain" \
     -H "X-Device-ID: $DEVICE_ID" \
