@@ -9,6 +9,7 @@ A full-stack SIEM-style solution for real-time SSH intrusion detection using sys
 
 ## 📁 Repository Layout
 
+```text
 .
 ├── backend
 │ ├── app.py # FastAPI application
@@ -22,6 +23,7 @@ A full-stack SIEM-style solution for real-time SSH intrusion detection using sys
 │ ├── batches # CSVs of log batches for ML experiments
 │ └── notebook files # Jupyter notebooks & CSV exports
 └── requirements.txt # Python dependencies for backend
+```
 
 ---
 
