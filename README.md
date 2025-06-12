@@ -63,7 +63,7 @@ cd Major Project - SIEM
 
 2. **Install dependencies**
 ```
-pip install -r ../requirements.txt
+pip install -r requirements.txt
 ```
 
 2. **Enter `backend/`**  
@@ -103,7 +103,7 @@ Using the command:
 ```
 On first run you’ll be prompted for username, email, contact → registers in Supabase → stores DEVICE_ID in ~/.log_protect.conf.
 
-> For Local testing, use localpc.sh (which points to a local log file):
+> For Local testing, use localpc.sh (which points to a local log file).
 
 ## 🌐 Frontend Setup
 
